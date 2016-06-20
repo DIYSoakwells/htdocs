@@ -71,7 +71,7 @@
     			<div class="topbar_nav">
            		
             		<!-- Calculator Button -->
-            		<button class="btn btn-sm btn-primary calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator"></i>&nbsp;&nbsp;Soakwell Calculator</button> 
+            		<button class="btn btn-sm btn-primary calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 
             		
             		<!-- Cart Button -->
 					<button type="button" data-toggle="modal" data-target=".cartModal">    
@@ -157,7 +157,7 @@
 			
 					<p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;Tip! - 
 You can view individual item quantities from the cart at anytime without leaving the page by clicking on the cart button at the top left of the page.</small></p>
-					<a class="nav btn-tiny btn" href="#how_to_shop">Help with how to use our shop.</a>
+					<a class="nav btn" href="#how_to_shop">Help with how to use our shop.</a>
 				</div>
 			
 			</div>

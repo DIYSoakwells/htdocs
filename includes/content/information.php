@@ -49,7 +49,7 @@
 	
 		<p>When choosing a location, the soakwells should be at least 1.5 - 1.8m from footings and boundaries, depending on your council. Never start digging until you know where all your underground services are (sewer / gas / power / water / phone / fibre etc). </p>
 		
-		<p>You can contact <a href="http://www.1100.com.au/">Dial Before You Dig</a> for free to find out about the udergroud services on public land and we have some tips for you as well.</p>
+		<p>You can contact <a href="http://www.1100.com.au/">Dial Before You Dig</a> for free to find out about the underground services on public land and we have some tips for you as well.</p>
 	
 		<br/>
 	
@@ -59,7 +59,7 @@
 		
 		<p>We always aim for just two or three locations. Typically a row of polypropylene soakwells at the front and back of the house, depending on the available space and location of underground services. You need a minimum of 300mm cover from the top of the soakwell to ground level.</p>
 	
-		<p>For example: Four 140 litre soakwells = 2m long, 500mm wide. TOTAL depth 900mm (570mm soakwells plus 300mm cover = 870mm rounded up).</p>
+			<p><small>For example: Four 140 litre soakwells = 2m long, 500mm wide. TOTAL depth 900mm (570mm soakwells plus 300mm cover = 870mm rounded up).</small></p>
 	
 		<br/>
 	
