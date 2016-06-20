@@ -1,0 +1,332 @@
+/* //// COLOURS //////////////////////////////////////////////////////////////////////// */
+
+/* BASE #990F00	/ ACCENT #02505E / LIGHT GRAY #FAF8F8 / DARK GRAY #433C3C
+
+	BASE2 #990704  /  ACCENT 2 #578D00;
+
+/* //// FONTS //////////////////////////////////////////////////////////////////////// */
+@font-face {
+	font-family: 'diy';
+	src: url('../fonts/You_Are_Loved.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/You_Are_Loved.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/You_Are_Loved.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/You_Are_Loved.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/You_Are_Loved.svg#svgFontName') format('svg');/* Legacy iOS */ 
+}
+
+/* //// MAIN ELEMENTS //////////////////////////////////////////////////////////////////////// */
+
+body {
+    /*background-image: url(/assets/images/calculator/sand.jpg);
+	background-attachment: fixed;*/
+	background-color: #FAF8F8;
+}
+
+.top_bar{	
+	box-shadow: 0 4px 0 rgba(0, 0, 0, .04);
+	background-color: #FAF8F8;
+}
+
+.one_edge_shadow {
+    -webkit-box-shadow: 0 6px 5px -5px black;
+       -moz-box-shadow: 0 6px 5px -5px black;
+            box-shadow: 0 6px 5px -5px black;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+}
+
+.nav {
+	border: 1px solid #578D00; background-color: white;
+
+}
+
+/* Buttons */
+
+.btn-primary{
+	color: #FAF8F8;
+	background-color: #578D00;
+}
+
+.btn-secondary{
+	color: #FAF8F8;
+	background-color: #433C3C;
+}
+
+/* Icons */
+
+button i {color:#02505E} 
+
+.btn i {color:#FAF8F8} 
+
+i {color:#578D00}
+
+/* ////  LOGO / TITLES //////////////////////////////////////////////////////// */
+
+.fb-like {border-radius: 5px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: #FAF8F8;
+	}
+
+.DIY_title{
+	font-family: 'diy';
+	color: #990F00;
+}
+	
+.DIY_title small{
+	font-family: 'helvetica';
+	color: black;
+}
+
+.DIY_title_line2{
+	font-family: 'diy';
+	color: black;
+}
+
+.shop_diy_logo {
+	color: #FAF8F8;
+	font-family: 'diy';
+}
+
+.cart_diy_logo {
+	color: #990F00;
+	font-family: 'diy';
+}
+
+.trademark {
+	font: helvetica;
+}
+
+.heading_pricetable h3, .heading_shop h3, .heading_information h3, .heading_layout h3{
+	color: #02505E;font-weight: 200;
+}
+
+/* ////  PRICETABLE  ///////////////////////////////////////////////// */
+
+.fixed_heading_pricetable {
+	background-color: #990F00;
+	color: #FAF8F8;
+	border-top: 4px solid #B20128;
+}
+
+.pricetable{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: white;
+}
+
+.pricetable_title{
+	color: #02505E;
+	font-weight: 200;
+
+}
+
+/* ////  SHOP  ///////////////////////////////////////////////////// */
+
+.fixed_heading_shop {
+	background-color: #990704;
+	color: #FAF8F8;
+	border-top: 4px solid #B20128;
+}
+
+/*.heading_shop{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: white;
+}*/
+
+/*.heading_container{border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);}*/
+
+/* Shop Boxes */
+
+.shop_box_border {
+    border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+}
+
+.shop_box_large {
+	background-color: white;
+}
+
+.shop_box {
+	background-color: white;
+}
+
+.product_image_large {
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.06);
+}
+
+.product_image_small {
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.06);
+}
+.item_name{
+	color:#990F00;
+}
+
+.small_item_name{
+	color:#990F00;
+	font-size: 1em;
+}
+
+
+.cart_btn{ 
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: #FAF8F8;
+}
+
+/* ////  LAYOUT   /////////////////////////////////////////////////////////////////// */
+
+
+.fixed_heading_layout {
+	background-color: #990F00;
+	color: #FAF8F8;
+	border-top: 4px solid #B20128;
+}
+
+/*.heading_layout{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+	background-color: white;*/
+
+
+
+.layout_example_container{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* ////  INFORMATION   /////////////////////////////////////////////////////////////////// */
+
+
+.fixed_heading_information {
+	background-color: #990F00;
+	color: #FAF8F8;
+	border-top: 4px solid #B20128;
+}
+
+/*.heading_information{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: white;
+	
+}*/
+
+.info_container{
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	background-color: white;
+	border-radius: 0px;
+}
+
+/* ////  CART  /////////////////////////////////////////////////////////////////// */
+
+.checkout {
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.06);
+	background-color: #FAF8F8;
+}
+
+.gst {
+		font-weight: 400;
+		font-family: Helvetica,Verdana;
+		color: black;
+}
+
+.total {
+	color: #578D00;
+}
+
+.simpleCart_items th{
+	border-bottom: 1px solid #02505E;
+	background-color: #FAF8F8;
+}
+
+.simpleCart_items tr{
+	background-color: #FAF8F8;
+	border-bottom: 1px solid #02505E;
+}
+
+/* ////  FORM  /////////////////////////////////////////////////////////////////// */
+
+.details_form {background-color: transparent;}
+
+.contact_form{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.06);
+	background-color: #FAF8F8;
+}
+
+#textbox{
+	border: 1px solid #990704;	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff3f3f3',GradientType=0);
+    zoom: 1;
+	background: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#f3f3f3));
+	background: -moz-linear-gradient(top,#ffffff,#f3f3f3);
+}
+
+#textbox:hover,.input:hover { border: 1px solid red; }
+
+.input {
+	border: 1px solid #990704;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff3f3f3',GradientType=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#fff3f3f3)";
+    zoom: 1;
+	background: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#f3f3f3));
+	background: -moz-linear-gradient(top,#ffffff,#f3f3f3);
+	}
+
+.modal-footer > button{color: #02505E;}	
+
+/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
+/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
+/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
+
+
+/* ////  Product Images  /////////////////////////////////////////////////////////////////// */
+
+
+/* Extra Small Devices, Phones */ 
+/*@media only screen and (min-width : 480px) {
+	
+.fixed_heading_pricetable {
+	font-size: 1.1em;
+}
+	
+.pricetable{
+	font-size: 1.6em;
+}
+
+.pricetable_title{
+	color: #990704;
+	font-size: 1.4em;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

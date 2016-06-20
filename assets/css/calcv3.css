@@ -1,0 +1,353 @@
+.mycolumn {
+	box-shadow: 0 4px 0 rgba(0, 0, 0, .04);
+	padding: 40px 10px 20px 10px;/**/
+}
+
+.calc_form label {
+	font-size: 1.2em;/**/
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #990F00;
+	}
+
+.calc_form label small{
+
+	color: black;
+	}
+
+.calculator_labels {
+	font-weight: normal !important;
+}
+
+.calculator_labels, small {
+    font-weight: normal !important;
+}
+
+.calc_form input {
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s;
+	width: 85px;
+	border-radius: 5px;
+	padding: 5px 0px 5px 10px;/* placeholder no. */
+	margin: 0px 0px 0px 20px; /* for m2 icon */
+	text-align: center;
+}
+
+.calc_form input:focus{
+	text-align: center;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+
+}
+	
+.outer_container { 
+	/* centre input / select */
+	/*position: relative;*/
+	height: 80px;	
+}
+
+.inner_container {
+	/* centre input / select */
+	text-align: center;
+}
+
+.calc_form select {
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s;
+	width: 200px;
+	border-radius: 5px;
+	padding: 10px 0px 10px 5px;
+	margin: 0px 0px 0px 0px;/**/
+	font-size: 1.2em;/**/
+	text-align: center;
+	margin-top: 20px;
+}
+
+.vol_total {
+	font-size: 1.7em;
+	text-align: center;
+
+	padding: 0px 0px 20px 0px;
+}
+
+.figure_table{
+	padding:0px;/**/
+	margin: 20px 0px 20px 0px;
+	border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+
+.volbox_text{font-size: 1em;}
+
+
+.table_heading{
+	font-size: 1.6em; /*1.8 orig*/
+	margin: 0px 0px 5px 0px;/**/
+	text-align: center;
+}
+
+.no_of_soaks {
+	padding: 5px 0px 10px 0px;
+	font-size: 1.8em;
+	color: crimson;
+}
+
+.price{
+	padding: 15px 0px 10px 0px;
+	font-size:2em;
+}
+
+.purchase_btn{
+	padding: 10px 0px 20px 0px;
+}
+
+.footer{
+	padding-top: 20px;
+	text-align: center;
+	font-size: .7em;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	
+.mycolumn {
+	padding: 40px 10px 20px 10px;/**/
+}
+	
+.title {text-align: center;}
+
+
+.lead {font-size: 1em;}/**/
+
+.logo_main {
+	margin-left: 0px;/*trademark*/
+}
+
+.trademark {
+	vertical-align: text-top;
+	font: helvetica;
+}
+	
+.info {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 1em;/**/
+	}
+
+.info h2{font-size: 1.4em;}/**/
+	
+.info p{
+	padding-bottom: 40px;
+	}
+
+.calc_heading {text-align: center;}
+
+.calc_heading h2{font-size: 1.5em;}/**/
+
+
+.logo_small{
+	text-align: center;
+}
+
+.DIY_title_small{
+	text-align: center;
+	font-family: 'diy';
+	font-size: 2.2em;/**/
+	color: crimson;
+	padding: 0px 0px 0px 10px;/*Trademark*/
+}
+
+.DIY_title_small small{
+	text-align: center;
+	font-family: 'helvetica';
+	color: black;
+	font-size: .3em;/**/
+	
+}
+
+.DIY_title_line2_small{
+	text-align: center;
+	font-family: 'diy';
+	font-size: .9em;/**/
+	color: black;
+	padding: 0px 0px 0px 0px;/**/
+	margin: 0px 0px 0px 0px;/**/
+	line-height: 0;
+}
+
+.calc_form label {
+	font-size: 1.2em;/**/
+	text-align: center;
+	width: 100%;
+	}
+
+.calculator_labels {
+	font-weight: normal !important;
+}
+
+.calculator_labels, small {
+    font-weight: normal !important;
+}
+
+.calc_form input {
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s;
+	width: 85px;
+	border-radius: 5px;
+	padding: 5px 0px 5px 5px;/* placeholder no. */
+	margin: 0px 0px 0px 20px; /* for m2 icon */
+	text-align: center;
+}
+
+ .calc_form input:focus{
+	text-align: center;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+	
+.outer_container { 
+	/* centre input / select */
+	/*position: relative;*/
+	height: 80px;
+	padding-top: 20px;
+}
+
+/*.inner_container {position: absolute;*/
+	/* centre input / select */
+	/*top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);*/
+}
+
+.calc_form select {
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s;
+	width: 220px;
+	border-radius: 5px;
+	padding: 10px 0px 10px 15px;
+	margin: 0px 0px 0px 0px;/**/
+	font-size: 1.2em;/**/
+	text-align: center;
+}
+
+.vol_total {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0;/**/
+	padding: 20px 0px 20px 0px;
+}
+
+.figure_table{
+	padding:0px;/**/
+	margin: 20px 0px 20px 0px;
+	border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.vol_box{
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+	padding:15px 5px 15px 5px;
+	margin: 10px 0px 10px 0px;
+	display: inline-block;
+}
+
+.volbox_text{font-size: 1em;}
+
+
+.table_heading{
+	font-size: 1.6em; /*1.8 orig*/
+	margin: 0px 0px 5px 0px;/**/
+	text-align: center;
+}
+
+.no_of_soaks {
+	padding: 5px 0px 10px 0px;
+	font-size: 1.8em;
+	color: crimson;
+}
+
+.price{
+	padding: 15px 0px 10px 0px;
+	font-size:2em;
+}
+
+.purchase_btn{
+	padding: 10px 0px 20px 0px;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	
+
+	.info h2{font-size: 1.5em;}
+	.calc_heading h2{font-size: 1.6em;}
+	.DIY_title_small{font-size: 3.1em;}
+	.DIY_title_line2_small{font-size: 1.3em;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+	.info h2{font-size: 1.8em;}
+	.info {font-size: 1.2em;}
+	.calc_heading h2{font-size: 1.8em;}
+	.DIY_title_small{font-size: 3.1em;}
+	.DIY_title_line2_small{font-size: 1.3em;}
+	.calc_form label {font-size: 1.2em;}
+	.calc_form input {width: 65px;
+		padding: 10px 0px 10px 10px;/* placeholder no. */
+		font-size: 1em;}
+	.calc_form select {width: 200px;
+		padding: 15px 0px 15px 10px;
+		font-size: 1em;}
+	.outer_container {height: 100px;}
+	.vol_box{padding:25px 15px 25px 15px;}
+	.volbox_text{font-size: 1.2em;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	.info h2{font-size: 1.8em;}
+	.info {font-size: 1.2em;}
+	.calc_heading h2{font-size: 1.8em;}
+	.DIY_title_small{font-size: 2.8em;margin-top: -5px;}
+	.DIY_title_line2_small{font-size: 1.2em;}
+	.volbox_text{font-size: 1.1em;}
+	.logo_main {margin-left: 0px;}
+	.title{text-align: left;}
+	.calc_form label {text-align: left;padding-bottom: 0px;padding-top: 0px}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+	.lead {font-size: 1.3em;}/**/
+
+	.info h2{font-size: 1.8em;}
+	.info {font-size: 1.2em;}
+	.calc_heading h2{font-size: 2em;}
+	.DIY_title_small{font-size: 2.8em;margin-top: 10px;}
+	.DIY_title_line2_small{font-size: 1.2em;}
+	.volbox_text{font-size: 1.1em;}
+	.logo_main {margin-left: 0px;}
+	.title{text-align: left;}
+	.calc_form label {text-align: left;}
+	
+	.calc_form label {font-size: 1.4em;}
+	.calc_form input {width: 85px;font-size: 1.4em;}
+	.calc_form select {width: 240px;font-size: 1.4em;}
+}
+
