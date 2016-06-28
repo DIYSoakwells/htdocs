@@ -111,7 +111,7 @@ i {color:#578D00}
 }
 
 .pricetable{
-	border-radius: 0px;
+	border-radius: 3px;
 	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
 	background-color: white;
 }
@@ -142,12 +142,13 @@ i {color:#578D00}
 /* Shop Boxes */
 
 .shop_box_border {
-    border-radius: 0px;
+    border-radius: 3px;
 	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
 }
 
 .shop_box_large {
 	background-color: white;
+	
 }
 
 .shop_box {
@@ -155,12 +156,12 @@ i {color:#578D00}
 }
 
 .product_image_large {
-	border-radius: 0px;
+	border-radius: 2px;
 	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.06);
 }
 
 .product_image_small {
-	border-radius: 0px;
+	border-radius: 3px;
 	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.06);
 }
 .item_name{
@@ -188,19 +189,6 @@ i {color:#578D00}
 	border-top: 4px solid #B20128;
 }
 
-/*.heading_layout{
-	border-radius: 0px;
-	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
-	background-color: white;*/
-
-
-
-.layout_example_container{
-	border-radius: 0px;
-	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
-}
-
-
 
 /* ////  INFORMATION   /////////////////////////////////////////////////////////////////// */
 
@@ -210,13 +198,6 @@ i {color:#578D00}
 	color: #FAF8F8;
 	border-top: 4px solid #B20128;
 }
-
-/*.heading_information{
-	border-radius: 0px;
-	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
-	background-color: white;
-	
-}*/
 
 .info_container{
 	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
@@ -281,37 +262,6 @@ i {color:#578D00}
 	}
 
 .modal-footer > button{color: #02505E;}	
-
-/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
-/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
-/* ////  MODALS  /////////////////////////////////////////////////////////////////// */
-
-
-/* ////  Product Images  /////////////////////////////////////////////////////////////////// */
-
-
-/* Extra Small Devices, Phones */ 
-/*@media only screen and (min-width : 480px) {
-	
-.fixed_heading_pricetable {
-	font-size: 1.1em;
-}
-	
-.pricetable{
-	font-size: 1.6em;
-}
-
-.pricetable_title{
-	color: #990704;
-	font-size: 1.4em;
-}
-	
-}
-
-
-
-
-
 
 
 

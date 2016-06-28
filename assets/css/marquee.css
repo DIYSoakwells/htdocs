@@ -1,0 +1,17 @@
+.slider{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+.slideContainer{
+    overflow:hidden;
+    width:1000%;
+    }
+
+.slideItem{
+    height:150px;
+    width:auto;
+	border: none;
+	padding: 0;
+	margin: 0 -2px 0 -2px;
+ }

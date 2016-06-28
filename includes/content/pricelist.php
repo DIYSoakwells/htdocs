@@ -1,7 +1,7 @@
 
     <div class="pricetable_section row no-gutters">
           
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
             <div class="pricetable">
             	<h3 class="pricetable_title">Great Service</h3>
               	<table class="list">
@@ -18,7 +18,7 @@
             </div>
         </div>
           
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
             <div class="pricetable">
               <h3 class="pricetable_title">Easily Order Online</h3>
           
@@ -32,7 +32,7 @@
             </div>
           </div>
           
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
             <div class="pricetable">
               <h3 class="pricetable_title">FREE Delivery</h3>
           
@@ -46,7 +46,7 @@
             </div>
           </div>
           
-        <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
             <div class="pricetable">
               <h3 class="pricetable_title">Onsite Consultation</h3>
               

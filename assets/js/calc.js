@@ -1,13 +1,13 @@
 
 
-$('#calc_form').keypress(function (e) {                                       
+$('.calc_form').keypress(function (e) {                                       
        if (e.which == 13) {
             e.preventDefault();
             //do something   
        }
 });
 
-var catchment, volume, soakwell, vol100, vol75, vol50, totalCost, cost100, cost75, cost50, numberOfTanks, wholeT100, wholeT75, wholeT50, disc100, disc75, disc50, tcost100, tcost75, tcost50, saved100, saved75, saved50;
+var catchment, volume, soakwell, vol100, vol75, vol50, totalCost, cost100, cost75, cost50, numberOfTanks, wholeT100, wholeT75, wholeT50, disc100, disc75, disc50, tcost100, tcost75, tcost50, saved100, saved75, saved50, price;
 
 var councilFactors = [  .0125,  //Default
                         .0125,  //Armdale
@@ -27,7 +27,7 @@ var tankPrices = [  59.95, //140 litre
 
 //Round 'r' to 's' decimal places
 var rounded = function(r, s) {
-  var t = parseFloat(r.toFixed(s));
+  var t = parseFloat(r.toFixed(2));
   return t;
 }
 
@@ -61,11 +61,20 @@ var calcCosts = function() {
   cost100 = rounded(vol100 * tankPrices[soakwell-1], 2);
   cost75 = rounded(vol75 * tankPrices[soakwell-1], 2);
   cost50 = rounded(vol50 * tankPrices[soakwell-1], 2);
+	cost = rounded(tankPrices[soakwell-1], 2);
   $("#cost100").text("$" + cost100);
   $("#cost75").text("$" + cost75);
   $("#cost50").text("$" + cost50);
+	//Display the price of the individual soakwell
+	$(".hidden_price").text("$" + cost);
   
 }
+//var insertSoakwellprice = function() {
+	
+//	cost = rounded(tankPrices[soakwell-1], 2);
+	
+//$(".hidden_price").text("$" + cost);
+//}
 
 //Calculate the Discount
 var calcDiscount = function() {
@@ -134,7 +143,14 @@ var calcFinalCost = function() {
   
 }
 
+var insertSoakwellType = function() {
+  soakwell = $('.soakwell option:selected').text();
+  $('.soakwell-type').text(soakwell);
+}
+
+
 var calculateAll = function() {
+  insertSoakwellType();
   calcVolume();
   calcTanks();
   calcCosts();

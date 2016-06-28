@@ -23,10 +23,9 @@
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<!-- CSS STYLES -->
-	<link rel="stylesheet" type="text/css" href="assets/css/layout.css?ts=<?php echo filemtime('assets/css/layout.css'); ?>" />
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/theme2_no_round_corners.css?ts=<?php echo filemtime('assets/css/theme2_no_round_corners.css'); ?>" />
-	
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/marquee.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/theme2_no_round_corners.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/calcv3.css"/>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,6 +34,11 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]--><!-- Facebook Script -->
+	
+	<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -48,6 +52,7 @@
 
 <body>
 
+
 <div id="fb-root"></div>
 
 <!-- WRAPPER div -->
@@ -60,19 +65,20 @@
    <header>
     	<div class="row top_bar">
 
-        	<div class="logo_main col-sm-5 hidden-xs">
+        	<div class="logo_main col-sm-4 hidden-xs">
             	<!--Logo -->
 				<h2 class="DIY_title">DIY SOAKWELLS<small class="trademark">&trade;</small></h2>
         		<p class="DIY_title_line2">STORMWATER DRAINAGE CONSULTANTS</p>
-        	</div>   
+			</div>  
         	
-        	<nav class="top_menu col-sm-7 col-xs-12">
+        	<nav class="top_menu col-sm-8 col-xs-12">
     			<!-- Cart Modal Button -->
+    			
     			<div class="topbar_nav">
-           		
+				
             		<!-- Calculator Button -->
             		<button class="btn btn-sm btn-primary calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 
-            		
+            	
             		<!-- Cart Button -->
 					<button type="button" data-toggle="modal" data-target=".cartModal">    
 							<span><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>Cart&nbsp;&nbsp;</span>
@@ -80,6 +86,10 @@
 							<span>Items&nbsp;</span>
 							<span class="simpleCart_grandTotal"></span>
 					</button>	
+					
+						<span class="phone_number hidden-xs"><i class="fa fa-phone">&nbsp;&nbsp;</i>08 6406 2112</span>
+					
+					
 				</div>
     		</nav>	
     			  
@@ -127,6 +137,10 @@
     	
 		<?php include 'includes/content/pricelist.php';?>
 		
+		<?php include 'includes/content/photo_marquee.php';?>
+	
+		
+		
 	</section>
 
 	<!-- SHOP -->
@@ -145,11 +159,13 @@
 		
 			<div class="heading_container" id="shop_link">
 			
-				<div class="heading_shop">
-					<h3>TRAFFICABLE POLYPROPYLENE SOAKWELLS. SUPPLY and DELIVERY</h3>
-					<p>Use our simple polypropylene soakwell calculator to determine the number of polypropylene soakwells needed based on your roof area. The calculator button is at the top right of this page. </p>
+				<div class="heading_shop section_margin well">
+					<h3>TRAFFICABLE POLYPROPYLENE SOAKWELLS</h3>
+					
+				<p>Order your polypropylene soakwells and fittings from our shop below and get free delivery for orders over $200.00. The geofabric is also included with the soakwells. On delivery we will fully explain the assembly and installation process to make it as easy as possible for you.</p>
+					<p>Before ordering use our simple polypropylene soakwell calculator to easily find the number of polypropylene soakwells needed based on your roof area. The calculator button is at the top right of this page. </p>
 		
-					<p>All our Polypropylene Soakwells are trafficable and suitable for use under driveways, carparks, concrete, paving and grass. The soakwells are completely wrapped in the included geotexile, a woven, needle punched synthetic fibre that will not degrade underground.</p>
+					<p>All our polypropylene soakwells are trafficable and suitable for use under driveways, carparks, concrete, paving and grass. The soakwells are completely wrapped in geotexile, a woven, needle punched synthetic fibre that will not degrade underground.</p>
 					
 					<p>All prices include GST and are correct as of&nbsp;<script type=text/javascript src=/assets/js/custom/date.js></script></p>
 				
@@ -169,8 +185,8 @@ You can view individual item quantities from the cart at anytime without leaving
 			
 			<div class="heading_container">
 			
-				<div class="heading_shop">
-					<h3>PIPING and FITTINGS. SUPPLY and DELIVERY</h3>
+				<div class="heading_shop well">
+					<h3>PIPING and FITTINGS</h3>
 		
 					<p>To estimate the piping draw a rough plan on how you plan to split the soakwells between the roof area and downpipes, then pace out the distance from the furthest downpipe.</p><p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;Tip! -  The fall for the piping is 100mm for every 10 metres and the inlet is cut into the top of the soakwell for easy access.</small></p>
 				</div>
@@ -217,12 +233,12 @@ You can view individual item quantities from the cart at anytime without leaving
 <!-- LAYOUT EXAMPLE SECTION -->
 <!--===============================================================-->
 <div class="heading_container" id="layout_link">
-   	<div class="heading_layout" >
-		<h3>Installation of Polypropylene Soakwells</h3>
+   	<div class="heading_layout well">
+		<h3>INSTALLATION OF POLYPROPYLENE SOAKWELLS</h3>
 		<p>The plan below is an example of a new home that requires a total of eighteen 140 litre polypropylene soakwells. After measuring the distance from the footings and boundaries and taking the underground services in the front into consideration, the soakwells have been concentrated in two locations.</p>
 		  
 		  <p>As per the blue line illustrating the piping, one third of the roof area is directed to the polypropylene soakwells at the front and two thirds to the rear.</p>
-		  <a class="nav btn-tiny btn" href="#installation_tips">More tips on installing your soakwells.</a>
+		  <a class="nav btn-tiny btn" href="#installation_tips">More tips on installing <span class="hidden-xs">your</span> soakwells.</a>
 	</div>
 	</div>
     <div class="layout_example_container">
@@ -284,15 +300,16 @@ You can view individual item quantities from the cart at anytime without leaving
 
 <!--SCRIPTS -->
 <!--===============================================================--> 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!--===============================================================--> 
 <!-- Underscore.js for throttling for fixed menu effect -->
 <script src="assets/js/underscore-min.js"></script>
+<!--ajax send mail, no refresh,  loader, error/success -->
+<script src="assets/js/app.js"></script>
+<!--Array for shop items -->
+<script src="assets/js/shop_items_array.js"></script>
 <!-- Lazy load -->
 <!-- <script src="js/responsivelyLazy.min.js"></script>-->
 <!-- google recaptcha --> 
@@ -300,12 +317,12 @@ You can view individual item quantities from the cart at anytime without leaving
 <!-- fixed menu -->  
 <script src="/assets/js/custom/fixed_navbar3.js"></script> 
 <!-- cart -->
-<script src="assets/js/simpleCart.js?ts=<?php echo filemtime('assets/js/simpleCart.js'); ?>"></script>
+<script src="assets/js/simpleCart.js"></script>
 </script>
 <!-- Calculator -->
 <script src="assets/js/calc.js"></script>
-<!-- Cart -->
-<script src="assets/js/calc.js"></script>
+<!-- Marquee -->
+<script src="assets/js/marquee.js"></script>
 
 </body>
 </html>

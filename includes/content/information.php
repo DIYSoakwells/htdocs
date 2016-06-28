@@ -2,31 +2,31 @@
 		<!--===============================================================-->
 		<div class="info_container" id="how_to_shop">
     		<h4><b>How to use the shop</b></h4>
-    		<ol>
-        	<li>&nbsp;Click&nbsp;
+    	
+        	<p>Click&nbsp;
         		<button class="btn btn-primary help_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator"></i>Soakwell Calculator</button>&nbsp;
-        	to find out the number of soakwells needed based on your roof area.</li>
+        	to find out the number of soakwells needed based on your roof area.</p>
 			
-        	<li>&nbsp;For more information on our trafficable polypropylene soakwells and geofabric select&nbsp;&nbsp;
+        	<p>For more information on our trafficable polypropylene soakwells and geofabric select&nbsp;&nbsp;
         		<a class="btn btn-secondary btn-sm help_btn">Click For More Info</a>
-        	</li>
+        	</p>
         	
-        	<li>&nbsp;To add items to the cart click <a class="btn btn-primary btn-sm help_btn" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to cart</a></li>
+        	<p>To add items to the cart click <a class="btn btn-primary btn-sm help_btn" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to cart</a></p>
         	
-        	<li>&nbsp;This counter&nbsp;<b class="simpleCart_quantity badge"></b><span class="hidden-xs"></span>&nbsp;tells you how many items are in your cart.</li>
+        	<p>This counter&nbsp;<b class="simpleCart_quantity badge"></b><span class="hidden-xs"></span>&nbsp;tells you how many items are in your cart.</p>
             
-             <li>&nbsp;Select
+             <p>Select
              <button type="button" data-toggle="modal" data-target=".cartModal">    
 					<span><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>Cart&nbsp;&nbsp;</span>
 					<b class="simpleCart_quantity badge"></b>
 					<span>Items&nbsp;</span>
 					<span class="simpleCart_grandTotal"></span>
 				</button>&nbsp;&nbsp;to view items in the cart or checkout at any time.
-			</li>
+			</p>
       
-    <li>&nbsp;To send your order for confirmation enter your details. A representative will contact you within 24hrs to discuss the details of your order. Payment is made on delivery when we will provide an invoice. Payment can be made by bank transfer or credit card.</li>
-    </ol>
-    		<br/><br/> <!-- change this to padding -->
+    <p>To send your order for confirmation enter your details. A representative will contact you within 24hrs to discuss the details of your order. Payment is made on delivery when we will provide an invoice. Payment can be made by bank transfer or credit card.</p>
+   
+    		<br/>
         
     		<div class="nav_btn_container">
         		<a class="nav btn-tiny btn" href="#shop_link">Back to Shop</a>   

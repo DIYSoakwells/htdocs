@@ -8,7 +8,7 @@ $responseKeys = json_decode($response,true);
 if(intval($responseKeys["success"]) !== 1) {
 
 
-echo "<script>alert('Mail was not sent !');</script>";
+echo Please Click on the Captcha;
 return false;
 	
 } else {
@@ -34,7 +34,7 @@ $text = "<html><body><p>This order was submitted from www.diysoakwells.com.au on
 $body = $text . $jcitems;
 mail($to, $subject, $body, $headers);
 
-echo "<script>alert('Mail was sent');</script>";
+echo Mail was sent;
 return false;
 }
 ?>

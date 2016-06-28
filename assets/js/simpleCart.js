@@ -69,16 +69,16 @@
 				// default options
 				settings = {
 	
-					checkout				: { type: "SendForm", url: "/assets/php/sendjs.php" },
+					checkout				: { type: "SendForm", url: "/php/sendjs.php", method: "POST" },
 					currency				: "AUD",
 					language				: "english-us",
 
 					cartStyle				: "table",
 					cartColumns			: [
 						{ view: function(item, column){
-   						return"<img src='"+item.get('image')+"'>";
-   						}, 
+   						return"<img src='"+item.get('image')+"'>";}, 
 						  attr: 'image', label: "Item" },
+						
 						{ attr: "name" },
 						
 						{ attr: "price", label: "Price", view: 'currency' },
@@ -348,10 +348,8 @@
 						quantity += item.quantity();
 					});
 					return quantity;
-				},
-				
-		
-				
+				},			
+	
 
 				total: function () {
 					var total = 0;
@@ -364,7 +362,6 @@
 				grandTotal: function () {
 					return simpleCart.total() + simpleCart.tax() + simpleCart.shipping();
 				},
-
 
 				// updating functions
 				update: function () {

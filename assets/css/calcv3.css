@@ -61,14 +61,16 @@
 	font-size: 1.2em;/**/
 	text-align: center;
 	margin-top: 20px;
+	overflow: hidden;
 }
 
 .vol_total {
 	font-size: 1.7em;
 	text-align: center;
-
-	padding: 0px 0px 20px 0px;
+	background-color: #FAF8F8;
 }
+
+
 
 .figure_table{
 	padding:0px;/**/
@@ -77,10 +79,6 @@
 	border-radius: 5px;
 	text-align: center;
 }
-
-
-
-.volbox_text{font-size: 1em;}
 
 
 .table_heading{
@@ -94,6 +92,15 @@
 	font-size: 1.8em;
 	color: crimson;
 }
+.soakwell-type1 {
+	margin: 0px 0px 10px 0px;
+	font-size: 1em;
+	color: crimson;
+	text-align: center;
+}
+.volbox_text{font-size: 1em;}
+
+.hidden_price, .hidden_name{display: none}
 
 .price{
 	padding: 15px 0px 10px 0px;
@@ -233,10 +240,8 @@
 }
 
 .vol_total {
-	font-size: 1.7em;
-	text-align: center;
-	margin: 0;/**/
-	padding: 20px 0px 20px 0px;
+	padding: 5px 0px 20px 0px;
+	margin: 0 -15px;
 }
 
 .figure_table{
@@ -253,6 +258,7 @@
 	padding:15px 5px 15px 5px;
 	margin: 10px 0px 10px 0px;
 	display: inline-block;
+	background-color: 
 }
 
 .volbox_text{font-size: 1em;}
@@ -279,8 +285,6 @@
 	padding: 10px 0px 20px 0px;
 }
 
-
-
 }
 
 /* Extra Small Devices, Phones */ 
@@ -306,7 +310,7 @@
 	.calc_form input {width: 65px;
 		padding: 10px 0px 10px 10px;/* placeholder no. */
 		font-size: 1em;}
-	.calc_form select {width: 200px;
+	.calc_form select {width: 180px;
 		padding: 15px 0px 15px 10px;
 		font-size: 1em;}
 	.outer_container {height: 100px;}
@@ -348,6 +352,6 @@
 	
 	.calc_form label {font-size: 1.4em;}
 	.calc_form input {width: 85px;font-size: 1.4em;}
-	.calc_form select {width: 240px;font-size: 1.4em;}
+	.calc_form select {width: 180px;font-size: 1.4em;}
 }
 

@@ -29,7 +29,6 @@
 				<br>
 				
 				<h3 class="item_price">Included</h3>
-				<span><small>(Cut to Fit)</small></span>
 			</div>
 			
 			

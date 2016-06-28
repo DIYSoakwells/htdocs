@@ -1,0 +1,8 @@
+.marquee-outer {
+ height: 150px;
+}
+
+marquee img{
+ 	max-height: 120px;
+	width: auto;
+}

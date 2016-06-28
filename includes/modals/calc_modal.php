@@ -65,8 +65,8 @@
 			<div class="col-xs-12 col-md-4 outer_container">
 				<div class="calc_input inner_container">
 					<select class="soakwell" name="soakwell">
-						<option value="1" selected>Trafficable&nbsp;140&nbsp;litre</option>
-						<option value="2">Trafficable&nbsp;130&nbsp;litre</option>
+						<option value="1" selected>140 Litre Polypropylene Soakwell</option>
+						<option value="2">130 Litre Polypropylene Soakwell</option>
 					</select>
 				</div>
 			</div>				
@@ -83,42 +83,72 @@
 <section class="figure_table row">
 												
 	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box">
+		<div class="center-block vol_box simpleCart_shelfItem">
 			<div><h3 class="table_heading">100% of Volume Calculation</h3></div>
-			<div class="no_of_soaks"><span class="vol100"></span>&nbsp;Soakwells</div>
-			<div>Includes Geotextile and Onsite Advice</div>
+			<div class="no_of_soaks"><span class="vol100 item_quantity"></span>
+			</div>
+			
+			<span class="hidden_price item_price"></span>
+			
+			<div class="soakwell-type1"><span class="soakwell-type item_name"></span><span>s</span></div> 
+			
+			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH</div>
 			<div class="price"><span id="cost100"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
-			<!--need to add number recommended to cart if 'add to cart' clicked -->
-			<!-- <div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;" href="">ADD TO CART</a></div> -->
+			<!-- add soakwells recommended to cart if 'add to cart' clicked -->
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			<!-- Item Counter -->
+				<span class="counter">
+					<b class="simpleCart_quantity badge"></b>
+				</span>
+			
 		</div>
 	</div>
 		
 	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box">
+		<div class="center-block vol_box simpleCart_shelfItem">
 			<div><h3 class="table_heading">75% of Volume Calculation</h3></div>
-			<div class="no_of_soaks"><span class="vol75"></span>&nbsp;Soakwells</div>
-			<div>Includes Geotextile and Onsite Advice</div>
+			<div class="no_of_soaks"><span class="vol75 item_quantity"></span></div>
+			
+			<span class="hidden_price item_price"></span>
+			
+			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span>s</span></div> 
+			
+			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
 			<div class="price"><span id="cost75"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
-			<!--need to add number recommended to cart if 'add to cart' clicked -->
-			<!--<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;" href="">ADD TO CART</a></div>-->
+			<!--add soakwells recommended to cart if 'add to cart' clicked -->
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			
+			<!-- Item Counter -->
+			<span class="counter">
+				<b class="simpleCart_quantity badge"></b>
+			</span>
 			
 		</div>
 	</div>
 							
 	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box">
+		<div class="center-block vol_box simpleCart_shelfItem">
 			<div><h3 class="table_heading">50% of Volume Calculation</h3></div>
-			<div class="no_of_soaks"><span class="vol50"></span>&nbsp;Soakwells</div>
-			<div>Includes Geotextile and Onsite Advice</div>
+			<div class="no_of_soaks"><span class="vol50 item_quantity"></span></div>
+			
+			<span class="hidden_price item_price"></span>
+			
+			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span >s</span></div> 
+			  
+			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
 			<div class="price"><span id="cost50"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--need to add number recommended to cart if 'add to cart' clicked -->
-			<!--<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;" href="">ADD TO CART</a></div>-->
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			<!-- Item Counter -->
+			<span class="counter">
+				<b class="simpleCart_quantity badge"></b>
+			</span>
 			
 		</div>
 	</div>
