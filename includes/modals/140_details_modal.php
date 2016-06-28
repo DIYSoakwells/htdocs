@@ -83,7 +83,7 @@
 				
 				<p>The construction is unlike any other polypropylene soakwell. The small apertures in the panels and dividers minimise the risk of compacted sand and stones rupturing the geofabric.</p>
 				
-				<h3 class="modal_content_heading">Easy to Install</h3>
+				<h3 class="modal_content_heading">Easiest to Install</h3>
 				<p>Another unique advantage of this product are the actual dimensions of the soakwell. Ideally your polypropylene soakwells will be arranged in rows to maximise the amount of area in contact with sand. At 500mm x 500mm x 560mm these soakwells will take one third less space than other polypropylene soakwells when arranged in rows.</p>
 
 				<p>The ability to join the soakwells together also greatly simplifies the installation. For example if ten soakwells are required you can assemble the row of ten in four sections instead of 10 individual soakwells. 2x three soakwells joined together and 2x four soakwells joined together.</p>

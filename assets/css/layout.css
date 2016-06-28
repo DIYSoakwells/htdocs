@@ -786,7 +786,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .contact_form input, #textbox {width: 500px;}
 	
-.pricetable {font-size: 1em;line-height:1.9em;width: 60%;height: 280px;}
+.pricetable {font-size: 1em;line-height:1.5em;width: 85%;height: 280px;}
 	
 .product_description{width:90%;}
 	

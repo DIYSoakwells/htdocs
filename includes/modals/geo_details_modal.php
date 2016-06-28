@@ -83,7 +83,7 @@
 						<li>High flow through for rapid drainage.</li>
 						<li>Sustainable.</li>
 						<li>High Strength.</li>
-						<li>Not affected by bacteria or Fungus (will not degrade under ground).</li>
+						<li>Not affected by bacteria or fungus (will not degrade under ground).</li>
 					</ul>
 				</div>
 				

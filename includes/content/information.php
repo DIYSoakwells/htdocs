@@ -57,9 +57,11 @@
 	
 		<p>Polypropylene soakwells should be side by side in rows and grouped based on just two or three sections of roof. This is important because downpipes can take different amounts of water from the roof due to the fall of the gutters, direction of the wind/rain and maintenance issues.</p>
 		
-		<p>We always aim for just two or three locations. Typically a row of polypropylene soakwells at the front and back of the house, depending on the available space and location of underground services. You need a minimum of 300mm cover from the top of the soakwell to ground level.</p>
+		<p>We always aim for just two or three locations. Typically a row of polypropylene soakwells at the front and back of the house, depending on the available space and location of underground services.</p>
 	
-			<p><small>For example: Four 140 litre soakwells = 2m long, 500mm wide. TOTAL depth 900mm (570mm soakwells plus 300mm cover = 870mm rounded up).</small></p>
+	
+	
+						<p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;&nbsp;Tip!&nbsp;&nbsp;For example: Four 140 litre soakwells = 2m long x 500mm wide x 900mm deep.</small></p>
 	
 		<br/>
 	
