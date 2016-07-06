@@ -62,7 +62,7 @@
 			<!-- Product Modal Body -->
 			<div class="modal-body modal_main_text">
 				<h2 class="modal-title Cart_Summary" id="product2_description"><b>130 Litre Polypropylene Soakwell</b></h2>
-				<h3>Versatile</h3>
+				<h3 class="modal_content_heading">Versatile</h3>
 				<p>Our 130 litre <b>trafficable</b> polypropylene soakwells are great for smaller jobs that only require a small number of soakwells because while they are long, they are not as deep or wide as the 140 litre soakwell.</p>
 				<p><b>Dimensions:</b> W 755mm x L 400mm x H 437mm.</p>
 				<p><b>Ten soakwells:</b> 7.5m long x 0.4m wide. 1300 litres / 1.3 m3</p>

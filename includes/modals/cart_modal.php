@@ -50,13 +50,13 @@
 
 		<form id="ajax-contact" method="post" action="javascript:simpleCart.checkout()" class="contact_form">	
 			<fieldset>					
-				<h4>Questions / Additional Information</h4>
+				<h4 class="contact_form_title">Questions / Additional Information</h4>
 
 				<div class="textbox_container">
-					<textarea rows="5" style="overflow-y:hidden" id="textbox" name="textbox"></textarea>
+					<textarea rows="5" style="overflow-y:hidden" class="textbox" name="textbox"></textarea>
 				</div>
 
-				<h4>Customer Details</h4>	
+				<h4 class="contact_form_title">Customer Details</h4>	
 
 				<table>
 					<tr>

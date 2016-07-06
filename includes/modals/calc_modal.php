@@ -80,10 +80,14 @@
 	<span class="totalVolumeM3"></span>&nbsp;m<sup>3</sup>&nbsp;&nbsp;/&nbsp;&nbsp;<span class="totalVolumeL">	</span>&nbsp;Litres
 </section>
 
+<div class="fb_container">
+			<div class="fb-like" data-href="http://www.facebook.com/DiySoakwells" data-layout="button_count" data-width="225" data-action="like" data-show-faces="false" data-share="true"></div> if you found this information useful.
+		</div>
+
 <section class="figure_table row">
 												
-	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box simpleCart_shelfItem">
+	<div class="col-xs-12 col-md-4">
+		<div class="center-block vol_box well simpleCart_shelfItem">
 			<div><h3 class="table_heading">100% of Volume Calculation</h3></div>
 			<div class="no_of_soaks"><span class="vol100 item_quantity"></span>
 			</div>
@@ -97,7 +101,7 @@
 			<div class="price"><span id="cost100"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!-- add soakwells recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
 			<!-- Item Counter -->
 				<span class="counter">
 					<b class="simpleCart_quantity badge"></b>
@@ -107,7 +111,7 @@
 	</div>
 		
 	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box simpleCart_shelfItem">
+		<div class="center-block vol_box well simpleCart_shelfItem">
 			<div><h3 class="table_heading">75% of Volume Calculation</h3></div>
 			<div class="no_of_soaks"><span class="vol75 item_quantity"></span></div>
 			
@@ -120,7 +124,7 @@
 			<div class="price"><span id="cost75"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--add soakwells recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
 			
 			<!-- Item Counter -->
 			<span class="counter">
@@ -131,20 +135,20 @@
 	</div>
 							
 	<div class=" col-xs-12 col-md-4">
-		<div class="center-block vol_box simpleCart_shelfItem">
+		<div class="center-block vol_box well simpleCart_shelfItem">
 			<div><h3 class="table_heading">50% of Volume Calculation</h3></div>
 			<div class="no_of_soaks"><span class="vol50 item_quantity"></span></div>
 			
 			<span class="hidden_price item_price"></span>
 			
-			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span >s</span></div> 
+			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span> s</span></div> 
 			  
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
 			<div class="price"><span id="cost50"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--need to add number recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;">ADD TO CART</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
 			<!-- Item Counter -->
 			<span class="counter">
 				<b class="simpleCart_quantity badge"></b>

@@ -1,116 +1,223 @@
+function refresh()
+{
+	qtyArray = $('.item-quantity');
+	nameArray = $('.item-name');
+	//console.log(qtyArray[1].innerHTML);
+	for(i=1;i<$('.item-name').length;i++)
+	{
+		var name = nameArray[i].innerHTML;
+		var qty = qtyArray[i].innerHTML;
+		var qt = parseInt(qty);
+		for(j=0;j<$('.item_name').length;j++)
+		{
+			var pname = $('.item_name').get(j);
+			if(  pname.innerHTML == name)
+				{
+					var it = j+1;
+					var xpath = '/html/body/div[2]/section[4]/div[3]/section[1]/div['+it+']/div/div[3]/span/b';
+					$(_x(xpath)).html(qt);
+					
+					//var xpath2 = '/html/body/div[2]/section[4]/div[3]/section[2]/div['+it+']/div/div[3]/span/b';
+					// The counters in pipe_anf_fittings.php beginning line 4.
+					//$(_x(xpath2)).html(qt);
+					
+					//var xpath3 = ''; // The counters in calc_modal.php, line 106, 130 and 153.
+					//$(_x(xpath3)).html(qt); 
+				}
+		}
+		name="";
+	}
+}
 $(function() {
-
 
 	// Get the form.
 	var form = $('#ajax-contact');
-
+	//simpleCart.empty();
 	// Get the messages div.
 	var formMessages = $('#form-messages');
 	
-	var spinner = $('#spinner');
 	
-	var submit = $('#submit');
-
+	
+	simpleCart.update();
+	refresh();
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
-		
-		//display the cog animation
-		$(spinner).removeClass('hidden');
-		//hide the submit button
-		$(submit).addClass('hidden');
-
-		//console.log($('.item-price').length);
-		jsonObj=[];
-		for(i=1;i<$('.item-price').length;i++)
-		{
-			item={};
-			var itemname = $('.item-name').get(i);
-			var itemprice = $('.item-price').get(i);
-			var itemquantity = $(".item-quantity").get(i);
-			var itemtotal = $(".item-total").get(i);
-			item["name"] = itemname.innerHTML;
-			item["price"] = itemprice.innerHTML;
-			item["quantity"] = itemquantity.innerHTML;
-			item["total"] = itemtotal.innerHTML;
-			jsonObj.push(item);
-		}
-		formdata = {};
-		formdata["textbox"] = $("#textbox").val();
-		formdata["name"] = $('#name').val();
-		formdata["phone"] = $('#phone').val();
-		formdata["email"] = $('#email').val();
-		formdata["address"] = $('#address').val();
-		formdata["grandtotal"] = simpleCart.grandTotal();
-		var x = 
-		{
-			"cart" : jsonObj,
-			"formdata" : formdata,
-			"captchaResponse" : $("#g-recaptcha-response").val()
-		};
-		//jsonString = jsonObj+formdata;
-		var y = JSON.stringify(x);
-		//console.log(y);
-		//var result = jQuery.parseJSON(y);
-		//console.log(result);
-
 
 		// Serialize the form data.
-		//var formData = $(form).serialize();
+		var formData = $(form).serialize();
 
 		// Submit the form using AJAX.
 		$.ajax({
-			type: 'post',
-			url: '/assets/php/mailer.php' ,
-			//url: $(form).attr('action'),
-			data: y,
-			contentType: "application/json; charset=utf-8",
-			traditional: true,
-			success: function (response) {
-                		if(response=="Thank You! Your message has been sent.")
-                		{
-					//remove the button animation
-					$(spinner).addClass('hidden');
-                	$(formMessages).removeClass('error');
-					$(formMessages).addClass('success');
-					$("#textbox").val('');
-                	$('#name').val('');
-					$('#email').val('');
-					$('#message').val('');
-					$('#phone').val('');
-					$('#address').val('');
-					
-                		}
-                		else
-                		{
-                	$(formMessages).removeClass('success');
-					$(formMessages).addClass('error');
-					$(spinner).addClass('hidden');
-					$(submit).removeClass('hidden');
-                		}
-                		
-				$(formMessages).text(response);
-                		
-            			}
-			
-		});
-		//.done(function(response) {
-		//	console.log(response);
+			type: 'POST',
+			url: $(form).attr('action'),
+			data: formData
+		})
+		.done(function(response) {
 			// Make sure that the formMessages div has the 'success' class.
-			//$(formMessages).removeClass('error');
-			//$(formMessages).addClass('success');
+			$(formMessages).removeClass('error');
+			$(formMessages).addClass('success');
 
 			// Set the message text.
-			//$(formMessages).text(response);
+			$(formMessages).text(response);
 
 			// Clear the form. Temporarily diabled while developing
 			//$('#name').val('');
 			//$('#email').val('');
 			//$('#message').val('');
-		//})
+		})
 	
 
 	});
+	
+	$(".simpleCart_increment").click(function()
+	{
+			console.log("+ pressed");
+		
+	});
+	
+	
+	simpleCart.bind( "afterAdd" , function( item )
+	{
+		var qty = item.get("quantity");
+		var name = item.get("name");
+		
+		//divs  = $('.item_name');
+		for(i=0;i<$('.item_name').length;i++)
+		{
+			var pname = $('.item_name').get(i);
+			if(  pname.innerHTML == name)
+				{
+					var it = i+1;
+					var xpath = '/html/body/div[2]/section[4]/div[3]/section[1]/div['+it+']/div/div[3]/span/b';
+					$(_x(xpath)).html(qty);
+					
+					//var xpath2 = '/html/body/div[2]/section[4]/div[3]/section[2]/div['+it+']/div/div[3]/span/b';
+					//$(_x(xpath2)).html(qty);	
+					
+					//var xpath3 = '';
+					//$(_x(xpath3)).html(qty);
+					
+				}
+		}
+	});
+	
+	
+	$(document).on('click', '.simpleCart_items', function (event) {
+		//sleepFor(1000);
+		refresh();
+		
+	});
+	
+		//counter reset to 0
+	simpleCart.bind( 'beforeRemove' , function( item ){
+				var qty = item.get("quantity");
+				var name = item.get("name");
+		
+		divs  = $('.item_name');
+		for(i=0;i<$('.item_name').length;i++)
+		{
+			var pname = $('.item_name').get(i);
+			if(  pname.innerHTML == name)
+				{
+					var it = i+1;
+					var xpath = '/html/body/div[2]/section[4]/div[3]/section[1]/div['+it+']/div/div[3]/span/b';
+					$(_x(xpath)).html("0");
+					
+					//var xpath2 = '/html/body/div[2]/section[4]/div[3]/section[2]/div['+it+']/div/div[3]/span/b';
+					//$(_x(xpath2)).html("0");	
+					
+					//var xpath3 = '';
+					//$(_x(xpath3)).html("0");
 
+					
+				}
+		}
+		});
+		
+		$('.decr').click(function(){
+			var ind = $('.decr').index(this);
+			
+			var ppname = $('.item_name').get(ind);
+			var name = ppname.innerHTML;
+			simpleCart.each(function( item , x ){
+				var n = item.get( "name" );
+				if(n == name)
+				{
+					item.decrement();
+					simpleCart.update();
+				}
+				refresh();
+			});
+			
+			//$( "#foo" ).trigger( "click" );
+			// for( i=1; i < $('.item-decrement').length; i++ )
+			// {
+				// var iname = $(".item-name").get(i);
+				// if(iname.innerHTML == name)
+				// {
+					//var dec = $('.item-decrement').get(i);
+					// $(".item-decrement")[i].click();
+				// }
+				
+			// }
+			});
+	
+
+
+
+	
+	
 });
+function updateall()
+{
+	qtyArray = $('.item-quantity');
+	nameArray = $('.item-name');
+	//console.log(qtyArray[1].innerHTML);
+	for(i=1;i<$('.item-name').length;i++)
+	{
+		var name = nameArray[i].innerHTML;
+		var qty = qtyArray[i].innerHTML;
+		var qt = parseInt(qty);
+		for(j=0;j<$('.item_name').length;j++)
+		{
+			var pname = $('.item_name').get(j);
+			if(  pname.innerHTML == name)
+				{
+					var it = j+1;
+					var xpath = '/html/body/div[2]/section[4]/div[3]/section[1]/div['+it+']/div/div[3]/span/b';
+					$(_x(xpath)).html(qt+1);
+					
+					//var xpath2 = '/html/body/div[2]/section[4]/div[3]/section[2]/div['+it+']/div/div[3]/span/b';
+					//$(_x(xpath2)).html(qt+1);
+					
+					//var xpath3 = '';
+					//$(_x(xpath3)).html(qt+1);
+					
+				}
+		}
+		name="";
+	}
+
+}
+
+function sleepFor( sleepDuration ){
+    var now = new Date().getTime();
+    while(new Date().getTime() < now + sleepDuration){ /* do nothing */ } 
+} 
+
+
+	
+	
+
+function _x(STR_XPATH) {
+    var xresult = document.evaluate(STR_XPATH, document, null, XPathResult.ANY_TYPE, null);
+    var xnodes = [];
+    var xres;
+    while (xres = xresult.iterateNext()) {
+        xnodes.push(xres);
+    }
+
+    return xnodes;
+}

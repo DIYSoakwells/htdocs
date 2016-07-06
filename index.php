@@ -25,7 +25,7 @@
 	<!-- CSS STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/marquee.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/theme2_no_round_corners.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/color.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/calcv3.css"/>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,7 +56,7 @@
 <div id="fb-root"></div>
 
 <!-- WRAPPER div -->
-<div class="container-fluid" id="wrapper">
+<div class="container-fluid wrapper">
 
 <!--HEADER -->
 <!--===============================================================-->
@@ -77,7 +77,7 @@
     			<div class="topbar_nav">
 				
             		<!-- Calculator Button -->
-            		<button class="btn btn-sm btn-primary calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 
+            		<button class="btn btn-sm btn-success calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 
             	
             		<!-- Cart Button -->
 					<button type="button" data-toggle="modal" data-target=".cartModal">    
@@ -116,7 +116,7 @@
             
         	<div class="row">
            		<div class="col-md-6 col-md-offset-3 col-sm-12 text-video-bg">
-            	<!-- <button class="btn-lg btn btn-primary btn-ghost hidden-xs" type="button" data-toggle="modal" data-target=".cartModal"><i class="fa fa-calculator"></i>&nbsp;&nbsp;How Many Soakwells?</button> -->
+            	<!-- <button class="btn-lg btn btn-green btn-ghost hidden-xs" type="button" data-toggle="modal" data-target=".cartModal"><i class="fa fa-calculator"></i>&nbsp;&nbsp;How Many Soakwells?</button> -->
          		</div>
         	</div>       
     	</div>
@@ -127,10 +127,10 @@
 	<!--PRICE TABLE-->  
 	<!--===============================================================-->
 	<section class="main_section">
-		<div class="common one_edge_shadow fixed_heading_pricetable" id="s0">  
+		<div class="one_edge_shadow fixed_heading_pricetable" id="s0">  
            
-            <h2><span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS&nbsp;&nbsp;</span>SUPPLIES and DELIVERS POLYPROPYLENE SOAKWELLS</h2> 
-            <div id="ghost_div0"></div>   	
+            <h2 class="common"><span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS&nbsp;&nbsp;</span>DELIVERS POLYPROPYLENE SOAKWELLS</h2> 
+            <div class="ghost_div0"></div>   	
     	</div>
     	
     	<div class="spacer spacer-0"></div>
@@ -146,10 +146,10 @@
 	<!-- SHOP -->
 	<!--===============================================================-->
 	<section class="main_section">
-		<div class="common one_edge_shadow fixed_heading_shop" id="s1">
+		<div class="one_edge_shadow fixed_heading_shop" id="s1">
 		
-			<h2>WELCOME&nbsp;TO&nbsp;THE<span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS </span>ONLINE&nbsp;SHOP</h2>
-			<div id="ghost_div1"></div>
+			<h2 class="common">WELCOME&nbsp;TO&nbsp;THE<span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS </span>ONLINE&nbsp;SHOP</h2>
+			<div class="ghost_div1"></div>
 			
 		</div>
 	
@@ -159,8 +159,8 @@
 		
 			<div class="heading_container" id="shop_link">
 			
-				<div class="heading_shop section_margin well">
-					<h3>TRAFFICABLE POLYPROPYLENE SOAKWELLS</h3>
+				<div class="section_margin well heading_shop">
+					<h3 class="heading">TRAFFICABLE POLYPROPYLENE SOAKWELLS</h3>
 					
 				<p>Order your polypropylene soakwells and fittings from our shop below and get free delivery for orders over $200.00. The geofabric is also included with the soakwells. On delivery we will fully explain the assembly and installation process to make it as easy as possible for you.</p>
 					<p>Before ordering use our simple polypropylene soakwell calculator to easily find the number of polypropylene soakwells needed based on your roof area. The calculator button is at the top right of this page. </p>
@@ -168,27 +168,41 @@
 					<p>All our polypropylene soakwells are trafficable and suitable for use under driveways, carparks, concrete, paving and grass. The soakwells are completely wrapped in geotexile, a woven, needle punched synthetic fibre that will not degrade underground.</p>
 					
 					<p>All prices include GST and are correct as of&nbsp;<script type=text/javascript src=/assets/js/custom/date.js></script></p>
-				
+			
 					<br>
 			
-					<p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;Tip! - 
-You can view individual item quantities from the cart at anytime without leaving the page by clicking on the cart button at the top left of the page.</small></p>
-					<a class="nav btn" href="#how_to_shop">Help with how to use our shop.</a>
+					<div class="tip">
+						<span class="badge">
+							<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
+						</span>
+					&nbsp;Tip! - You can view individual item quantities from the cart at anytime without leaving the page by clicking on the cart button at the top left of the page.
+					</div>
+					<!-- Calculator Button -->
+            		<button class="btn btn-sm btn-success calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 
+					<a class="nav btn" href="#how_to_shop"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Help with how to use our shop.</a>
 				</div>
 			
 			</div>
 			
 			<!-- Polypropylene Products -->
 			<section class="row">
-			<?php include 'includes/content/soakwells.php' ;?>
+			<?php include 'includes/content/soakwells.php';?>
 			</section>
+			
 			
 			<div class="heading_container">
 			
-				<div class="heading_shop well">
-					<h3>PIPING and FITTINGS</h3>
+				<div class="well heading_shop">
+					<h3 class="heading">PIPING and FITTINGS</h3>
 		
-					<p>To estimate the piping draw a rough plan on how you plan to split the soakwells between the roof area and downpipes, then pace out the distance from the furthest downpipe.</p><p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;Tip! -  The fall for the piping is 100mm for every 10 metres and the inlet is cut into the top of the soakwell for easy access.</small></p>
+					<p>To estimate the piping draw a rough plan on how you plan to split the soakwells between the roof area and downpipes, then pace out the distance from the furthest downpipe.</p>
+					
+					<div class="tip">
+						<span class="badge">
+							<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
+						</span>
+						&nbsp;Tip! -  The fall for the piping is 100mm for every 10 metres and the inlet is cut into the top of the soakwell for easy access.
+					</div>
 				</div>
 			</div>
 			
@@ -213,18 +227,18 @@ You can view individual item quantities from the cart at anytime without leaving
 	</div>
 	
 		<!-- Facebook -->
-		<div class="fb_container">
+		<!--<div class="fb_container">
 		<div class="fb-like" data-href="http://www.facebook.com/DiySoakwells" data-layout="button_count" data-width="225" data-action="like" data-show-faces="false" data-share="true"></div>
-</div>
+</div>-->
 	</section>
 
 	<!-- LAYOUT EXAMPLE -->
 	<!--===============================================================-->
 <section class="main_section" id="tips_link">
 
-		<div class="common one_edge_shadow fixed_heading_layout" id="s2">
-			<h2><span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS&nbsp;&nbsp;</span>Example&nbsp;Layout - 16&nbsp;Polypropylene&nbsp;Soakwells</h2> 
-			<div id="ghost_div2"></div>
+		<div class="one_edge_shadow fixed_heading_layout" id="s2">
+			<h2 class="common"><span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS&nbsp;&nbsp;</span>Example&nbsp;Layout</h2> 
+			<div class="ghost_div2"></div>
 		</div>
 		
 		<div class="spacer spacer-2"></div>
@@ -234,17 +248,17 @@ You can view individual item quantities from the cart at anytime without leaving
 <!--===============================================================-->
 <div class="heading_container" id="layout_link">
    	<div class="heading_layout well">
-		<h3>INSTALLATION OF POLYPROPYLENE SOAKWELLS</h3>
+		<h3 class="heading">INSTALLATION OF POLYPROPYLENE SOAKWELLS</h3>
 		<p>The plan below is an example of a new home that requires a total of eighteen 140 litre polypropylene soakwells. After measuring the distance from the footings and boundaries and taking the underground services in the front into consideration, the soakwells have been concentrated in two locations.</p>
 		  
 		  <p>As per the blue line illustrating the piping, one third of the roof area is directed to the polypropylene soakwells at the front and two thirds to the rear.</p>
-		  <a class="nav btn-tiny btn" href="#installation_tips">More tips on installing <span class="hidden-xs">your</span> soakwells.</a>
+		  <a class="nav btn-tiny btn" href="#installation_tips"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;More tips on installing <span class="hidden-xs">your</span> soakwells.</a>
 	</div>
 	</div>
     <div class="layout_example_container">
         <div class="layout_example_image">
-            <img class="img-responsive hidden-xl hidden-lg" src="assets/images/general/example-polypropylene-layout-sm1.png" alt="Example image vetical">
-            <img class="img-responsive hidden-xs hidden-sm hidden-md" src="assets/images/general/example-polypropylene-layout-sm.png" alt="Example image horizontal">
+           <!-- <img class="img-responsive hidden-xl hidden-lg" src="assets/images/general/example-polypropylene-layout-sm1.png" alt="Example image vertical">-->
+            <img class="img-responsive" src="assets/images/general/example-polypropylene-layout-sm.png" alt="Example image horizontal">
         </div>
     </div>
 
@@ -253,10 +267,10 @@ You can view individual item quantities from the cart at anytime without leaving
 	<!-- INFORMATION HEADING-->
 	<!--===============================================================-->
 	<section class="main_section">
-		<div class="common one_edge_shadow fixed_heading_information" id="s3">
-			<h2>How to use the shop / About 
+		<div class="one_edge_shadow fixed_heading_information" id="s3">
+			<h2 class="common">How to use the shop / About 
 			<span class="shop_diy_logo">&nbsp;DIY&nbsp;SOAKWELLS&nbsp;</span>/ Installation Tips</h2>
-			<div id="ghost_div3"></div>
+			<div class="ghost_div3"></div>
 		</div>
 		
 		<div class="spacer spacer-3"></div>
@@ -297,32 +311,34 @@ You can view individual item quantities from the cart at anytime without leaving
 <?php include 'includes/modals/130_details_modal.php'; ?>
 
 
-
 <!--SCRIPTS -->
 <!--===============================================================--> 
-
-
+<!-- For Counter -->
+<script> var indiv_quant = { attr: "quantity", label: "No." };</script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!--===============================================================--> 
 <!-- Underscore.js for throttling for fixed menu effect -->
 <script src="assets/js/underscore-min.js"></script>
-<!--ajax send mail, no refresh,  loader, error/success -->
+<!-- fixed menu -->  
+<script src="assets/js/custom/fixed_navbar3.js"></script>
+<!-- Marquee -->
+<script src="assets/js/marquee.js"></script>
+<!--ajax send mail, no refresh,  loader, error/success, counter -->
 <script src="assets/js/app.js"></script>
-<!--Array for shop items -->
-<script src="assets/js/shop_items_array.js"></script>
 <!-- Lazy load -->
 <!-- <script src="js/responsivelyLazy.min.js"></script>-->
 <!-- google recaptcha --> 
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<!-- fixed menu -->  
-<script src="/assets/js/custom/fixed_navbar3.js"></script> 
 <!-- cart -->
-<script src="assets/js/simpleCart.js"></script>
-</script>
+<script src="assets/js/simpleCart.js"></script> 
 <!-- Calculator -->
 <script src="assets/js/calc.js"></script>
-<!-- Marquee -->
-<script src="assets/js/marquee.js"></script>
 
 </body>
+
+
+
+
+
+
 </html>

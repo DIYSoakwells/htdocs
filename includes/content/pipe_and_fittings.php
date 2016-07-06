@@ -1,6 +1,5 @@
 
 <!-- Pipe and fittings  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-	
 		<!-- ITEM 1 -->
 		<div class="col-md-3 col-sm-4 col-xs-6 simpleCart_shelfItem">
 			<div class="shop_box shop_box_border">
@@ -12,15 +11,25 @@
 				<p>One male, one female end. Take advantage of free delivery.</p>
 				
 				</div>
-				<div class="price_and_addbutton">	
-				<h3 class="item_price">$16.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
+				<div class="price_and_addbutton">
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+				<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				
+				<h3 class="item_price">$16.95&nbsp;<small>inc. GST</small></h3>
+				
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 				
 				</div>
 			</div>
@@ -38,14 +47,23 @@
 				
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$1.90&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				
+				<h3 class="item_price">$1.90&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 				
 				</div>
 			</div>
@@ -64,14 +82,22 @@
 				
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class=" item_price">$5.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
+				</span>	
+				<h3 class="item_price">$5.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
 					
-				</span>
+				</span> -->
 				
 				</div>
 			</div>
@@ -88,15 +114,23 @@
 				<p>Use with downpipe adaptors and turn Y-junctions in 'T' shaped Y junctions.</p>
 				
 				</div>
-				<div class="price_and_addbutton">
-				<h3 class="item_price">$3.85&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				<div class="price_and_addbutton">	
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				<h3 class="item_price">$3.85&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 				
 				</div>
 			</div>
@@ -114,14 +148,22 @@
 				</div>
 				
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$1.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
+				</span>	
+				<h3 class="  item_price">$1.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
 					
-				</span>
+				</span> -->
 				
 				</div>
 			</div>
@@ -139,14 +181,22 @@
 				
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$4.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				<h3 class="  item_price">$4.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 				
 				</div>
 			</div>
@@ -164,14 +214,22 @@
 				</div>
 				
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$4.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				<h3 class="  item_price">$4.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 			
 				</div>
 			</div>
@@ -190,14 +248,22 @@
 				</div>
 				
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$3.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
+				</span>	
+				<h3 class="  item_price">$3.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
 					
-				</span>
+				</span> -->
 				
 				
 				</div>
@@ -214,42 +280,27 @@
 				<p>The offset on the grate makes it easier if your footings protrude.</p>
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$8.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
 				
-				<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
+				<h3 class="  item_price">$8.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 			
 				</div>
 			</div>
 		</div>
 
-		<!-- ITEM 10 -->
-		<!-- <div class="col-md-3 col-sm-4  col-xs-6 simpleCart_shelfItem">
-			<div class="shop_box shop_box_border">
-				<div>
-					<img class="img-responsive product_image_small item_image" src="assets/images/products/collar_grateR.jpg" alt="T Junction. 90mm">
-				</div>
-				<div class="product_description">
-				<h3 class="  item_name">Round Grate</h3>
-				<p>The round grate is used less than the square, being harder to use with paving.</p>
-				</div>
-				<div class="price_and_addbutton">	
-				<h3 class="item_price">$9.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>-->
-					
-				<!-- Item Counter -->
-				<!-- <span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
-				</span>
-			
-				</div>
-			</div>
-		</div>-->
 
 		<!-- ITEM 11 -->
 		<div class="col-md-3 col-sm-4 col-xs-6 simpleCart_shelfItem">
@@ -262,14 +313,22 @@
 				<p>Be sure to glue your fittings. Fast set, PVC cement. 500ml.</p>
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$7.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
-						
-				<!-- Item Counter -->
+				
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
+				</span>	
+				<h3 class="  item_price">$7.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
 					
-				</span>
+				</span> -->
 				
 				</div>
 			</div>
@@ -286,19 +345,58 @@
 				<p>PVC tape, good for holding geotextile fabric in place if you don't have a staple gun.</p>
 				</div>
 				<div class="price_and_addbutton">	
-				<h3 class="  item_price">$7.95&nbsp;<small>inc. GST</small></h3>
-				<a class="btn btn-primary btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>			
 				
-<!-- Item Counter -->
 				<span class="counter">
-					<b class="simpleCart_quantity badge"></b>
-					
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
 				</span>
-			
+				<h3 class="item_price">$7.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
 				</div>
 			</div>
 		</div>
 		
+		
+		<!-- ITEM 10 -->
+		<div class="col-md-3 col-sm-4  col-xs-6 simpleCart_shelfItem">
+			<div class="shop_box shop_box_border">
+				<div>
+					<img class="img-responsive product_image_small item_image" src="assets/images/products/tape.jpg" alt="PVC Tape">
+				</div>
+				<div class="product_description">
+				<h3 class="  item_name">Staple Gun</h3>
+				<p>Used to secure the geotextile to the polypropylene soakwells.</p>
+				</div>
+				<div class="price_and_addbutton">	
+				
+				<span class="counter">
+					<a class="decr btn btn-secondary btn-sm" ><i class="fa fa-minus"></i></a>
+					<b class="test badge">0</b>	
+					<a class="btn btn-success btn-sm item_add" href="javascript:;"><i class="fa fa-plus"></i></a>
+				</span>	
+				<h3 class="item_price">$29.95&nbsp;<small>inc. GST</small></h3>
+				<!--<a class="btn btn-success btn-tiny btn-sm  item_add" href="javascript:;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to cart</a>
+				
+				<a class="decr btn btn-primary btn-sm" ><i class="fa fa-plus"></i>&nbsp;&nbsp;Decrement item</a>-->
+				
+				<!-- Item Counter
+				<span class="counter">
+					<b class="test badge">0</b>
+					
+				</span> -->
+			
+				</div>
+			</div>
+		</div>
 
 
 

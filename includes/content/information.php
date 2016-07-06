@@ -1,43 +1,40 @@
 	<!-- INFORMATION SECTION -->
 		<!--===============================================================-->
-		<div class="info_container" id="how_to_shop">
-    		<h4><b>How to use the shop</b></h4>
+		<div class="info_container well" id="how_to_shop">
+    		<h4 class="info_container_title heading">How to use the shop</h4>
     	
         	<p>Click&nbsp;
-        		<button class="btn btn-primary help_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator"></i>Soakwell Calculator</button>&nbsp;
+        		<button class="btn btn-success help_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator"></i>Soakwell Calculator</button>&nbsp;
         	to find out the number of soakwells needed based on your roof area.</p>
 			
         	<p>For more information on our trafficable polypropylene soakwells and geofabric select&nbsp;&nbsp;
-        		<a class="btn btn-secondary btn-sm help_btn">Click For More Info</a>
+        		<a class="btn btn-secondary btn-sm help_btn"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Click For More Info</a>
         	</p>
         	
-        	<p>To add items to the cart click <a class="btn btn-primary btn-sm help_btn" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to cart</a></p>
+        	<p>To add items to the cart click <a class="btn btn-success btn-sm help_btn" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to cart</a></p>
         	
         	<p>This counter&nbsp;<b class="simpleCart_quantity badge"></b><span class="hidden-xs"></span>&nbsp;tells you how many items are in your cart.</p>
             
              <p>Select
              <button type="button" data-toggle="modal" data-target=".cartModal">    
-					<span><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>Cart&nbsp;&nbsp;</span>
-					<b class="simpleCart_quantity badge"></b>
-					<span>Items&nbsp;</span>
-					<span class="simpleCart_grandTotal"></span>
+				<span><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>Cart&nbsp;&nbsp;</span>
+				<b class="simpleCart_quantity badge"></b>
+				<span>Items&nbsp;</span>
+				<span class="simpleCart_grandTotal"></span>
 				</button>&nbsp;&nbsp;to view items in the cart or checkout at any time.
 			</p>
       
     <p>To send your order for confirmation enter your details. A representative will contact you within 24hrs to discuss the details of your order. Payment is made on delivery when we will provide an invoice. Payment can be made by bank transfer or credit card.</p>
-   
-    		<br/>
-        
-    		<div class="nav_btn_container">
+           		
+		</div>
+
+       	<div class="nav_btn_container">
         		<a class="nav btn-tiny btn" href="#shop_link">Back to Shop</a>   
 			</div>	
-		</div>
-       
-		<br/><br/><!-- change this to padding -->
         	
-		<div class="info_container" id="installation_tips">
+		<div class="info_container well" id="installation_tips">
    	
-    	<h4><b>INSTALLATION TIPS</b></h4>
+    	<h4 class="info_container_title heading">INSTALLATION TIPS</h4>
     
     	<br/>
     
@@ -45,7 +42,7 @@
 	
 		<br/>
 		
-		<h5>LOCATION</h5>
+		<h5 class="heading">LOCATION</h5>
 	
 		<p>When choosing a location, the soakwells should be at least 1.5 - 1.8m from footings and boundaries, depending on your council. Never start digging until you know where all your underground services are (sewer / gas / power / water / phone / fibre etc). </p>
 		
@@ -53,19 +50,24 @@
 	
 		<br/>
 	
-		<h5>POLYPROPYLENE SOAKWELLS</h5>
+		<h5 class="heading">POLYPROPYLENE SOAKWELLS</h5>
 	
 		<p>Polypropylene soakwells should be side by side in rows and grouped based on just two or three sections of roof. This is important because downpipes can take different amounts of water from the roof due to the fall of the gutters, direction of the wind/rain and maintenance issues.</p>
 		
 		<p>We always aim for just two or three locations. Typically a row of polypropylene soakwells at the front and back of the house, depending on the available space and location of underground services.</p>
 	
+		<br/>
 	
-	
-						<p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><small>&nbsp;&nbsp;Tip!&nbsp;&nbsp;For example: Four 140 litre soakwells = 2m long x 500mm wide x 900mm deep.</small></p>
+		<div class="tip text-center">
+			<span class="badge">
+				<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
+			</span>
+			&nbsp;&nbsp;Tip!&nbsp;&nbsp;For example: Four 140 litre soakwells = 2m long x 500mm wide x 900mm deep.
+		</div>
 	
 		<br/>
 	
-		<h5>PIPING</h5>
+		<h5 class="heading">PIPING</h5>
 	
 		<p>For the piping, walk around your house and draw a rough plan of the boundary, house perimeter, downpipes and proposed soakwell locations.</p>
 		
@@ -75,25 +77,25 @@
 
 		<br/>
 
-		<h5>SAND REMOVAL</h5>
+		<h5 class="heading">SAND REMOVAL</h5>
    	
 		<p>Don't forget you will have the sand displaced by the soakwells at the end. To estimate the amount take the total volume of the polypropylene soakwells and add another 30%. We have some tips on how to deal with this as well.</p>
    
-		<div class="nav_btn_container">
-			<a id="link1" class="nav btn-tiny btn" href="#layout_link">Back to Example Layout</a>
-		</div>
+		
 
 		<div class="fb_container">
-			<div class="fb-like" data-href="http://www.facebook.com/DiySoakwells" data-layout="button_count" data-width="225" data-action="like" data-show-faces="false" data-share="true"></div>
+			<div class="fb-like" data-href="http://www.facebook.com/DiySoakwells" data-layout="button_count" data-width="225" data-action="like" data-show-faces="false" data-share="true"></div> if you found this information useful.
 		</div>
 	</div>
-	
-		<br/><br/><!-- change this to padding -->
         
-		<div class="info_container">
-    		<h4><b>About DIY Soakwells</b>&trade;</h4>
+        <div class="nav_btn_container">
+			<a id="link1" class="nav btn-tiny btn" href="#layout_link">Back to Example Layout</a>
+		</div>
+        
+		<div class="info_container well">
+    		<h4 class="info_container_title heading"><b>About DIY Soakwells</b>&trade;</h4>
      
-			<h5>INFORMATION</h5>
+			<h5 class="heading">INFORMATION</h5>
     
     		<p>This website is designed to equip you with the knowledge to make an informed decision when purchasing polyproylene soakwells for your home or extension.</p>
         	

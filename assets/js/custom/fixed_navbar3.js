@@ -35,7 +35,7 @@ $(function(){
    This example also allows the headings to overlap. I think you said
    you already have a solution for that so I left it as is.
   */
-  var WRAPPER = '#wrapper'; // selector for a parent element
+  var WRAPPER = '.wrapper'; // selector for a parent element
   var THROTTLE_SCROLL = 10; // ms interval for calling scroll handler
   var THROTTLE_RESIZE = 20; // ms interval for calling resize handler
   
