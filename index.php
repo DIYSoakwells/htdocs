@@ -52,6 +52,10 @@
 
 <body>
 
+<!--<span id="scrollMore" style="opacity: 1;">
+Scroll for More
+<em>↓</em>
+</span>-->
 
 <div id="fb-root"></div>
 
@@ -134,11 +138,11 @@
     	</div>
     	
     	<div class="spacer spacer-0"></div>
-    	
+    <div class="fadeOutSection">
 		<?php include 'includes/content/pricelist.php';?>
 		
 		<?php include 'includes/content/photo_marquee.php';?>
-	
+	</div>
 		
 		
 	</section>
@@ -333,6 +337,8 @@
 <script src="assets/js/simpleCart.js"></script> 
 <!-- Calculator -->
 <script src="assets/js/calc.js"></script>
+<!-- Button Animation -->
+<script src="assets/js/custom/buttonGrow.js"></script>
 
 </body>
 

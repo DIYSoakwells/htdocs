@@ -1,4 +1,20 @@
 
+/*Test classes*/
+/*#scrollMore {
+    background: url("http://www.wiltshirefarmfoods.com/images/scrollMore.png") no-repeat scroll center bottom transparent;
+    bottom: 0;
+    cursor: pointer;
+    height: 42px;
+    position: fixed;
+    right: 36px;
+    text-indent: -9999px;
+    width: 124px;
+    z-index: 100;
+}*/
+
+
+/*Test classes*/
+
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
@@ -150,6 +166,7 @@
 	padding: 10px 10px 10px 10px;/**/
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .list{margin: auto;}
@@ -671,7 +688,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .pricetable_section {padding: 60px 20px 20px 20px;}
 
-.pricetable {font-size:.9em;line-height:1em;width: 95%;}
+.pricetable {font-size:.9em;line-height:1em;width: 95%;margin-top: 20px;}
 	
 .pricetable td, .pricetable th{height: 50px;}
 	
