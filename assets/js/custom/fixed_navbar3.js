@@ -48,11 +48,13 @@ $(function(){
   ];
   
   function calcPositions() {
+	$('.product_description , .pricetable').matchHeight();
     $.each(entries, function (i, entry) {
       entry.top = $(entry.sel).offset().top;
     });
   }
   calcPositions(); // get initial positions
+
   
   function resetPositions() {
     // this may not do exactly what you need, but if the window is

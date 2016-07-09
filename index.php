@@ -172,9 +172,10 @@ Scroll for More
 					<p>All our polypropylene soakwells are trafficable and suitable for use under driveways, carparks, concrete, paving and grass. The soakwells are completely wrapped in geotexile, a woven, needle punched synthetic fibre that will not degrade underground.</p>
 					
 					<p>All prices include GST and are correct as of&nbsp;<script type=text/javascript src=/assets/js/custom/date.js></script></p>
-			
-					<br>
-			
+					<br/>
+					<p><b>FREE DELIVERY</b> - For orders over $200.00, Yanchep to Baldivas. Please call us if you live outside these areas.</p>
+					<p><b>ON SITE GUIDANCE</b> - On assembly and installation provided.</p>
+					<br/>
 					<div class="tip">
 						<span class="badge">
 							<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
@@ -323,6 +324,8 @@ Scroll for More
 <!--===============================================================--> 
 <!-- Underscore.js for throttling for fixed menu effect -->
 <script src="assets/js/underscore-min.js"></script>
+<!-- Same Height Columns  -->
+<script src="assets/js/jquery-match-height/jquery.matchHeight.js"></script>
 <!-- fixed menu -->  
 <script src="assets/js/custom/fixed_navbar3.js"></script>
 <!-- Marquee -->
@@ -339,8 +342,7 @@ Scroll for More
 <script src="assets/js/calc.js"></script>
 <!-- Button Animation -->
 <script src="assets/js/custom/buttonGrow.js"></script>
-<!-- Same Height Columns  -->
-<script src="assets/js/jquery-match-height/jquery.matchHeight.js"></script>
+
 </body>
 
 

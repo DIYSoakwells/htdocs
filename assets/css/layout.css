@@ -1,16 +1,5 @@
 
 /*Test classes*/
-/*#scrollMore {
-    background: url("http://www.wiltshirefarmfoods.com/images/scrollMore.png") no-repeat scroll center bottom transparent;
-    bottom: 0;
-    cursor: pointer;
-    height: 42px;
-    position: fixed;
-    right: 36px;
-    text-indent: -9999px;
-    width: 124px;
-    z-index: 100;
-}*/
 
 
 /*Test classes*/
@@ -83,6 +72,9 @@
 	display: none;
 		
 }
+
+.invisible {visibility: hidden;}
+
 
 .wrapper.fixed-00 .spacer-0 { display: block; }
 .wrapper.fixed-01 .spacer-1 { display: block; }
@@ -221,16 +213,16 @@
 
 .shop_box_large {
 	margin: auto;
-	padding-bottom: 5px
+	padding-bottom: 5px;
 }
 
 .shop_box {
 	margin-top: 25px;/**/
-	padding: 15px 5px 5px 5px;/* TOP GAP*/
+	padding: 15px 5px 50px 5px;/* TOP GAP*/
 	margin: auto;
 }
 
-.fifty_five{height: 45px; width: 100%;margin-top: 5px;margin-bottom: -10px;}
+.fifty_pixels {height: 35px;margin-top:15px}/* bring geotextile counter level to match other counters */
 
 .img_box {text-align: center;}
 
@@ -692,9 +684,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .heading {font-size:1.3em;}/**/
 	
-.shop_box_large {font-size:1em;width: 100%;margin-bottom: 0;}/**/
+.shop_box_large {font-size:1em;width: 100%;margin-bottom: }/**/
 	
-.shop_box {margin-bottom: 25px; padding: 10px 10px 0 10px;font-size: 1em;width: 100%;}/**/
+.shop_box {margin-bottom: 25px; padding: 10px 10px 5px 10px;font-size: 1em;width: 100%;}/**/
 	
 .product_image_large {width: 150px;}
 	
@@ -744,7 +736,8 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 .product_description{width:90%;}
 	
 .shop_box_large {font-size: 1.1em;}
-	.shop_box {font-size: 1.1em;}
+	
+.shop_box {font-size: 1.1em;}
 
 .item_add{margin-top:0;font-size: .9em;}
 	
@@ -822,7 +815,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .shop_box_large{font-size:1.1em;width: 90%}/**/
 	
-.shop_box {font-size: 1.1em;width: 90%;}/**/
+.shop_box {width: 90%;}/**/
 
 .product_image_large{width: 160px;height: auto;}
 	

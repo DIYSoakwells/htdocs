@@ -14,10 +14,10 @@ $('.decr , .item_add ').click(function(){
 // make all divs the same height as the tallest
 
 
-$(document).ready(function() {
-	$('.product_description , .pricetable').matchHeight();
+//$(document).ready (function() {
+//	$('.product_description , .pricetable').matchHeight();
 	
-});
+//});
 
 	
 	

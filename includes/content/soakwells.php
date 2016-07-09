@@ -108,7 +108,8 @@
 			</div>
 			
 			<div class="price_and_addbtn_large">
-			<span class="counter fifty_five">
+			
+			<span class="counter fifty_pixels">
 			
 					<b class="badge">Cut to Suit</b>	
 				
