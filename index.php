@@ -180,7 +180,7 @@ Scroll for More
 						<span class="badge">
 							<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
 						</span>
-					&nbsp;Tip! - You can view individual item quantities from the cart at anytime without leaving the page by clicking on the cart button at the top left of the page.
+					&nbsp;Tip! - You can view the cart or checkout at anytime without leaving the page by clicking the cart button at the top right of the page.
 					</div>
 					<!-- Calculator Button -->
             		<button class="btn btn-sm btn-success calc_btn" type="button" data-toggle="modal" data-target=".calc"><i class="fa fa-calculator hidden-xs">&nbsp;&nbsp;</i>Soakwell Calculator</button> 

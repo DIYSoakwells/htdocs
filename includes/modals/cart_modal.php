@@ -46,7 +46,11 @@
 					
 <!-- Customer Details Form -->
 	<section class="details_form">
-		<b class="invoice_info">Due to the custom nature of this service we do not take payment until your order is confirmed and the materials are delivered. You will be emailed an invoice, for payment we accept bank transfer and credit card.</b>
+		<b class="invoice_info">Due to the custom nature of this service we do not take payment until your order is confirmed and the materials are delivered.</b>
+		
+		<b class="invoice_info">You will be emailed an invoice with our account details. Payment terms are 5 days from the invoice date please.</b>
+		
+		<p class="invoice_info">For payment we accept bank transfer and VISA / Master Card <small>(2.3% surcharge).</small></p>
 
 		<form id="ajax-contact" method="post" action="javascript:simpleCart.checkout()" class="contact_form">	
 			<fieldset>					

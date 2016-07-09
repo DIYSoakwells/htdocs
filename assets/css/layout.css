@@ -588,6 +588,8 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 @media only screen and (min-width : 375px) {
 .top_menu{font-size:1em;padding: 14px 0 0 0;}
 	
+	
+	
 .calc_btn{font-size: 1em;}/**/
 	
 .pricetable_title {font-size: 1.8em;}
@@ -620,7 +622,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 .top_menu{font-size: 1em;}
 	
 .fixed_heading_pricetable,	
-.fixed_heading_shop, .fixed_heading_layout, .fixed_heading_information {font-size: .9em;}/**/	
+.fixed_heading_shop, .fixed_heading_layout, .fixed_heading_information {font-size: .8em;}/**/	
 	
 .pricetable {line-height:2em;font-size: 1em;width: 67%;margin-bottom: 20px;}
 
@@ -664,6 +666,10 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 .top_menu{display:table;font-size:1em; height:100%;text-align: right;}/**/
 	
 .common {font-size: 1.6em;}
+	
+	
+.fixed_heading_pricetable,	
+.fixed_heading_shop, .fixed_heading_layout, .fixed_heading_information {font-size: .9em;}/**/	
 	
 .wrapper.fixed-00 .fixed_heading_pricetable,
 .wrapper.fixed-01 .fixed_heading_shop,

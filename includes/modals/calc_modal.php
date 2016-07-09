@@ -24,7 +24,7 @@
 					<small>(length x width)</small>
 					<br/>
 				
-					<small class="hidden-xs">This is known as your catchment area. Any impervious surfaces should be taken into consideration. This information is often found on the floor plan or can be easily visually estimated.</small>
+					<small class="hidden-xs">This is known as your catchment area. All impervious surfaces (roof / ground) should be considered. Areas are often on the floor plan or can be visually estimated (length x width).</small>
 				</label>
 			</section>
 				
@@ -38,7 +38,7 @@
 		<section class="mycolumn row">	
 			<section class="col-xs-12 col-md-8">
 				<label for="council">Choose Your Local Council if Listed. &ensp;<br/>
-				<small class="hidden-xs calculator_labels">The Standard calculation known as the 1 in 20 rain event is commonly used, listed councils have different requirements. The calculation ensures you will have adequete drainage even during heavy storms.</small>
+				<small class="hidden-xs calculator_labels">The Standard calculation known as the 1 in 20 rain event is commonly used although many councils have different requirements. The calculation allows you to make a more informed decision for your particular needs.</small>
 				</label>
 			</section>
 				
@@ -59,7 +59,7 @@
 
 		<section class="mycolumn row">					
 			<div class="col-xs-12 col-md-8 calculator_labels">
-				<label>Choose a Trafficable Polypropylene Soakwell<br/><small class="hidden-xs">We recommend the 140 litre polypropylene soakwell as it requires the least amount of space. An ideal system is just two or three large strips made up of a number of modules, serving a proportional amount of catchment area. Flow rates can vary dramatically between downpipes.</small></label>
+				<label>Choose a Trafficable Polypropylene Soakwell<br/><small class="hidden-xs">We recommend the 140 litre polypropylene soakwell as it requires the least amount of space. An ideal system is just two or three large strips made up of a number of modules, serving a proportional amount of the catchment area. Flow rates will vary dramatically between downpipes at different times.</small></label>
 			</div>
 				
 			<div class="col-xs-12 col-md-4 outer_container">
@@ -76,7 +76,7 @@
 </section>
 
 <section class="vol_total">		
-	<h3>Total Volume Required</h3>
+	<h3>Total Volume Needed</h3>
 	<span class="totalVolumeM3"></span>&nbsp;m<sup>3</sup>&nbsp;&nbsp;/&nbsp;&nbsp;<span class="totalVolumeL">	</span>&nbsp;Litres
 </section>
 
@@ -97,7 +97,7 @@
 			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost100"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!-- add soakwells recommended to cart if 'add to cart' clicked -->
@@ -120,7 +120,7 @@
 			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost75"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--add soakwells recommended to cart if 'add to cart' clicked -->
@@ -144,7 +144,7 @@
 			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span> </div> 
 			  
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost50"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--need to add number recommended to cart if 'add to cart' clicked -->
