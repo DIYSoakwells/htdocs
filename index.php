@@ -228,7 +228,7 @@ Scroll for More
 			</button>
 					
 		</div>
-	</div>
+		</div>
 	
 		<!-- Facebook -->
 		<!--<div class="fb_container">
@@ -339,7 +339,8 @@ Scroll for More
 <script src="assets/js/calc.js"></script>
 <!-- Button Animation -->
 <script src="assets/js/custom/buttonGrow.js"></script>
-
+<!-- Same Height Columns  -->
+<script src="assets/js/jquery-match-height/jquery.matchHeight.js"></script>
 </body>
 
 

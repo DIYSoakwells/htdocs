@@ -219,17 +219,15 @@
 
 /* Shop Boxes */
 
-.shop_box_large {	
-	width: auto;
+.shop_box_large {
 	margin: auto;
-	position: relative;/* for price_and_addbtn_large. 'position: absolute' > force elements to bottom of div */
+	padding-bottom: 5px
 }
 
 .shop_box {
 	margin-top: 25px;/**/
-	padding: 15px 5px 0 5px;/* TOP GAP*/
+	padding: 15px 5px 5px 5px;/* TOP GAP*/
 	margin: auto;
-	position: relative;/* for price_and_addbtn to allow position: absolute to force elemts to bottom of div */
 }
 
 .fifty_five{height: 45px; width: 100%;margin-top: 5px;margin-bottom: -10px;}
@@ -255,18 +253,16 @@
 }
 
 .price_and_addbutton { /* forces price and buttons in shop box to bottom of container */
-	position: absolute;
-	bottom: 0; 
-	left: 0;
+	
+
+	
 	width: 100%;
 	height: auto;
 	text-align: center;
 }
 
 .price_and_addbtn_large { /* forces price and buttons in shop box to bottom of container */
-	position: absolute;
-	bottom: 0; 
-	left: 0;
+	bottom: 0;
 	width: 100%;
 	height: auto;
 	padding-bottom: 0px;
@@ -540,7 +536,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .pricetable_section {padding: 60px 20px 20px 20px;}/**/
 	
-.pricetable {/*height: 240px;*/font-size: 1em;line-height:1.7em; margin-bottom: 20px;width: 90%;}
+.pricetable {font-size: 1em;line-height:1.7em; margin-bottom: 20px;width: 90%;}
 
 .heading {font-size:1.3em;}/**/
 
@@ -548,9 +544,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .nav {font-size: 1em;}
 
-.shop_box_large {height: 440px;width: 90%;font-size: 1em;margin-bottom: 20px;text-align: justify;}
+.shop_box_large {width: 90%;font-size: 1em;margin-bottom: 20px;text-align: justify;}
 	
-.shop_box {height: 400px;width: 100%;font-size: 1em;margin: 0 0 20px 0;text-align: justify;}/**/
+.shop_box {width: 100%;font-size: 1em;margin: 0 0 20px 0;text-align: justify;}/**/
 	
 .product_image_large {width: 220px;}
 	
@@ -603,16 +599,14 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 .calc_btn{font-size: 1em;}/**/
 	
 .pricetable_title {font-size: 1.8em;}
-
-.shop_box {height: 380px;}
 	
-.shop_box_large {height: 440px;width: 85%;}
+.shop_box_large {width: 85%;}
 	
 .contact_form input, .textbox{width: 280px;}/**/
 	
 .submit_field{width: 280px;}/* for loader and error messages - simulate submit btn*/
 	
-.pricetable {/*height: 280px;*/line-height:1.9em;font-size: 1em;width: 90%;}
+.pricetable {line-height:1.9em;font-size: 1em;width: 90%;}
 
 .total {font-size: 1.3em;}	
 	
@@ -638,9 +632,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .pricetable {line-height:2em;font-size: 1em;width: 67%;margin-bottom: 20px;}
 
-.shop_box {height: 325px;font-size: 1em;}
+.shop_box {font-size: 1em;}
 	
-.shop_box_large {font-size: 1em;height: 440px;width: 75%;}
+.shop_box_large {font-size: 1em;width: 75%;}
 	
 .item_add{margin-top:0;margin-bottom: 0;}
 	
@@ -698,9 +692,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .heading {font-size:1.3em;}/**/
 	
-.shop_box_large {font-size:1em;height: 410px;width: 100%;margin-bottom: 0;}/**/
+.shop_box_large {font-size:1em;width: 100%;margin-bottom: 0;}/**/
 	
-.shop_box {margin-bottom: 25px; padding: 10px 10px 0 10px; height: 350px;font-size: 1em;width: 100%;}/**/
+.shop_box {margin-bottom: 25px; padding: 10px 10px 0 10px;font-size: 1em;width: 100%;}/**/
 	
 .product_image_large {width: 150px;}
 	
@@ -745,12 +739,12 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .contact_form input, .textbox {width: 500px;}
 	
-.pricetable {font-size: 1em;line-height:1.5em;width: 90%;/*height: 280px;*/}
+.pricetable {font-size: 1em;line-height:1.5em;width: 90%;}
 	
 .product_description{width:90%;}
 	
-.shop_box_large {height: 430px;font-size: 1.1em;}
-	.shop_box {height: 350px;font-size: 1.1em;}
+.shop_box_large {font-size: 1.1em;}
+	.shop_box {font-size: 1.1em;}
 
 .item_add{margin-top:0;font-size: .9em;}
 	
@@ -778,7 +772,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 		
 .pricetable_section{padding:60px 10px 20px 10px;}
 	
-.pricetable {font-size: 1.1em;line-height:1.9em;width: 95%;/*height: 280px;*/}
+.pricetable {font-size: 1.1em;line-height:1.9em;width: 95%;}
 	
 .pricetable td{height: 50px;}
 
@@ -786,9 +780,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 /*.shop{margin:0px 45px 0 45px;}*/
 	
-.shop_box_large {font-size:1.2em;height: 410px;width: 100%;}/**/
+.shop_box_large {font-size:1.2em;width: 100%;}/**/
 	
-.shop_box {height: 360px;font-size: 1.1em;width: 100%;}/**/
+.shop_box {font-size: 1.1em;width: 100%;}/**/
 	
 .checkout {font-size: 1.5em;}
 	
@@ -818,7 +812,7 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .pricetable_section {padding: 60px 20px 20px 20px;}
 	
-.pricetable {padding: 10px 0 0 2px;/**/font-size: 1.1em;/**/line-height:1.1em;}
+.pricetable {padding: 10px 0 0 2px;font-size: 1.1em;line-height:1.1em;}
 	
 .pricetable td{height: 50px;width: auto}
 
@@ -826,9 +820,9 @@ video{width: 100%; /*change this to auto with custom video and different screen 
 	
 .heading_shop {font-size:1.4em;font-weight: 400;}/**/
 	
-.shop_box_large{font-size:1.1em;height: 440px;width: 90%}/**/
+.shop_box_large{font-size:1.1em;width: 90%}/**/
 	
-.shop_box {font-size: 1.1em;width: 90%;height: 340px;}/**/
+.shop_box {font-size: 1.1em;width: 90%;}/**/
 
 .product_image_large{width: 160px;height: auto;}
 	

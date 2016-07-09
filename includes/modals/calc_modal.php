@@ -65,8 +65,8 @@
 			<div class="col-xs-12 col-md-4 outer_container">
 				<div class="calc_input inner_container">
 					<select class="soakwell" name="soakwell">
-						<option value="1" selected>140 Litre Polypropylene Soakwell</option>
-						<option value="2">130 Litre Polypropylene Soakwell</option>
+						<option value="1" selected>140 Litre Polypropylene Soakwells</option>
+						<option value="2">130 Litre Polypropylene Soakwells</option>
 					</select>
 				</div>
 			</div>				
@@ -94,14 +94,14 @@
 			
 			<span class="hidden_price item_price"></span>
 			
-			<div class="soakwell-type1"><span class="soakwell-type item_name"></span><span>s</span></div> 
+			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH</div>
 			<div class="price"><span id="cost100"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!-- add soakwells recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add <span class="vol100 item_quantity"></span> to Cart</a></div>
 			<!-- Item Counter -->
 				<span class="counter">
 					<b class="simpleCart_quantity badge"></b>
@@ -117,14 +117,14 @@
 			
 			<span class="hidden_price item_price"></span>
 			
-			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span>s</span></div> 
+			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
 			<div class="price"><span id="cost75"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--add soakwells recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add <span class="vol75 item_quantity"></span> to Cart</a></div>
 			
 			<!-- Item Counter -->
 			<span class="counter">
@@ -141,14 +141,14 @@
 			
 			<span class="hidden_price item_price"></span>
 			
-			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span><span> s</span></div> 
+			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span> </div> 
 			  
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
 			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH!</div>
 			<div class="price"><span id="cost50"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--need to add number recommended to cart if 'add to cart' clicked -->
-			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add to Cart</a></div>
+			<div class="purchase_btn"><a class="btn btn-success item_add" href="javascript:;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add <span class="vol50 item_quantity"></span> to Cart</a></div>
 			<!-- Item Counter -->
 			<span class="counter">
 				<b class="simpleCart_quantity badge"></b>
@@ -158,6 +158,18 @@
 	</div>
 </section>
 	
+	
+	<!-- Cart Button -->
+	
+		<div class="cart_btn">      
+			<button type="button" data-toggle="modal" data-target=".cartModal">    
+				<span><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>Cart&nbsp;&nbsp;</span>
+				<b class="simpleCart_quantity badge"></b>
+				<span>Items&nbsp;</span>
+				<span class="simpleCart_grandTotal"></span>
+			</button>
+	
+	</div>
 </section>	
 
 <!-- Calculator Modal Footer -->
