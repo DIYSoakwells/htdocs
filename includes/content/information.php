@@ -38,7 +38,7 @@
     
     	<br/>
     
-		<p>Our general advice on purchasing the correct stormwater system is to calculate the volume of the soakwells based on the roof area (catchment area) and the formula for predicted rainfall during a storm from your local or nearby council. Our calculator makes this easy.</p>
+		<p>Our general advice on purchasing the correct stormwater system is to calculate the volume of the soakwells based on the roof area (catchment area) and the formula for predicted rainfall during a storm from your local or nearby council.</p>
 	
 		<br/>
 		
@@ -52,9 +52,10 @@
 	
 		<h5 class="heading">POLYPROPYLENE SOAKWELLS</h5>
 	
-		<p>Polypropylene soakwells should be side by side in rows and grouped based on just two or three sections of roof. This is important because downpipes can take different amounts of water from the roof due to the fall of the gutters, direction of the wind/rain and maintenance issues.</p>
+		<p>To maximise the area in contact with the sand and take advantage of the design, polypropylene soakwells are ideally installed in rows in only two or three locations.</p>
+		<p>This is important because downpipes can take different amounts of water from the roof at different times due to the fall of the gutters, direction of the wind/rain or maintenance issues.</p>
 		
-		<p>We always aim for just two or three locations. Typically a row of polypropylene soakwells at the front and back of the house, depending on the available space and location of underground services.</p>
+		<p>We always aim for just two locations, a row of polypropylene soakwells at the front and back of the house. This is dependent on factors including available space and the location of underground services as well as the distribution of roof area.</p>
 	
 		<br/>
 	
@@ -62,7 +63,7 @@
 			<span class="badge">
 				<i class="fa fa-lightbulb-o yellow" aria-hidden="true"></i>
 			</span>
-			&nbsp;&nbsp;Tip!&nbsp;&nbsp;For example: Four 140 litre soakwells = 2m long x 500mm wide x 900mm deep.
+			&nbsp;&nbsp;Tip!&nbsp;&nbsp;Halve the number of 140 polypropylene soakwells to find out the total length! <small>eg. 12 soakwells = 6m long (W x 0.5m, D x 0.9m).</small>
 		</div>
 	
 		<br/>

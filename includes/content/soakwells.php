@@ -12,7 +12,7 @@
 			<div  class="product_description">
 				<span><i class="fa fa-search-plus"></i><small>&nbsp;&nbsp;Click on the Image to Enlarge</small></span>
 				<!-- Product Text and buttons -->
-				<h3 class="item_name">130 Litre Polypropylene Soakwell</h3>
+				<h3 class="item_name">130 Litre Polypropylene Soakwells</h3>
 				<p>Trafficable and easy to assemble.</p>
 			
 				<a class="btn btn-secondary btn-sm details_btn" data-toggle="modal" data-target="#modal_140_details"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Click For More Info</a>
@@ -50,7 +50,7 @@
 			<div  class="product_description">
 				<span><i class="fa fa-search-plus"></i><small>&nbsp;&nbsp;Click on the Image to Enlarge</small></span>
 				<!-- Product Text and buttons -->
-				<h3 class="item_name">140 Litre Polypropylene Soakwell</h3>
+				<h3 class="item_name">140 Litre Polypropylene Soakwells</h3>
 				<p>Interlocking. Easiest to install.</p>
 				
 				<a class="btn btn-secondary btn-sm details_btn" data-toggle="modal" data-target="#modal_140_details"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Click For More Info</a>
