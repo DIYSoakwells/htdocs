@@ -97,7 +97,7 @@
 			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH. INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost100"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!-- add soakwells recommended to cart if 'add to cart' clicked -->
@@ -120,7 +120,7 @@
 			<div class="soakwell-type1"><span class="soakwell-type item_name"></span></div> 
 			
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH. INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost75"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--add soakwells recommended to cart if 'add to cart' clicked -->
@@ -144,7 +144,7 @@
 			 <div class="soakwell-type1"><span class="soakwell-type item_name"></span> </div> 
 			  
 			<!--<div>Includes Geotextile and Onsite Advice</div>-->
-			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH! INCLUDES GEOTEXTILE</div>
+			<div><i class="fa fa-truck"></i>&nbsp;&nbsp;FREE DELIVERY IN PERTH. INCLUDES GEOTEXTILE</div>
 			<div class="price"><span id="cost50"></span><sup><small>&nbsp;inc. GST</small></sup></div>
 			
 			<!--need to add number recommended to cart if 'add to cart' clicked -->

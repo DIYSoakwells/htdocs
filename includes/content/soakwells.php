@@ -15,7 +15,7 @@
 				<h3 class="item_name">130 Litre Polypropylene Soakwells</h3>
 				<p>Trafficable and easy to assemble.</p>
 			
-				<a class="btn btn-secondary btn-sm details_btn" data-toggle="modal" data-target="#modal_140_details"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Click For More Info</a>
+				<a class="btn btn-secondary btn-sm details_btn" data-toggle="modal" data-target="#modal_130_details"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;Click For More Info</a>
 			</div>
 				
 			<div class="price_and_addbtn_large">	

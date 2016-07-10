@@ -67,7 +67,7 @@
 				<p><b>Dimensions:</b> W 755mm x L 400mm x H 437mm.</p>
 				<p><b>Ten soakwells:</b> 7.5m long x 0.4m wide. 1300 litres / 1.3 m3</p>
 
-				<p>Supplied with four stabilsers.</p>
+				<p><b>Supplied with four stabilsers.</b></p>
 			
 				<h3 class="modal_content_heading">Easy to Assemble</h3>
 				<p>Panels and dividers are secured by peg and hole facilitating easy assembly.</p>

@@ -340,7 +340,7 @@
 	.calc_form label {text-align: left;}
 	
 	.calc_form label {font-size: 1.4em;}
-	.calc_form input {width: 85px;font-size: 1.4em;}
-	.calc_form select {width: 180px;font-size: 1.4em;}
+	.calc_form input {width: 85px;}
+	.calc_form select {width: 188px;}
 }
 
